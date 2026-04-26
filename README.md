@@ -35,17 +35,9 @@ wavesfm_vivor4_m2/
 │   └── experiments/              # Follow-up study scaffolds + tables
 │
 ├── report/                       # Final deliverables
-│   ├── wavesfm_reproduction_report.tex   # LaTeX source
-│   ├── wavesfm_reproduction_report.pdf   # Compiled report (34 pages)
-│   ├── wavesfm_reproduction_presentation.pptx  # Reproduction presentation (polished)
-│   ├── wavesfm_subset_study.pptx         # Subset-study presentation
-│   ├── wavesfm_presentation.pptx         # Auto-generated reproduction PPTX
-│   ├── create_presentation.py            # Generates wavesfm_presentation.pptx
-│   ├── create_subset_presentation.py     # Generates wavesfm_subset_study.pptx
-│   ├── create_architecture_pptx.py       # Generates the architecture PPTX
-│   ├── create_architecture_diagram.py    # Generates architecture PNGs
-│   ├── create_task_visualizations.py     # Generates confusion-matrix and density plots
-│   └── figures/                          # All plots + dataset visualisations
+│   ├── wavesfm_reproduction_presentation.pptx  # Reproduction presentation
+│   ├── wavesfm_subset_study.pptx               # Subset-study presentation
+│   └── figures/                                # All plots and dataset visualisations
 │
 ├── notes/                        # Documentation
 │   ├── 01_project_overview.md            # What WavesFM is, tasks, metrics
@@ -199,10 +191,7 @@ and `session_manifest.json`. Compare against the published numbers in
 
 ## Reproduction Deliverables
 
-- **Report:** `report/wavesfm_reproduction_report.pdf` (34 pages)
 - **Presentation:** `report/wavesfm_reproduction_presentation.pptx`
-- **Auto-generated reference PPTX:** `report/wavesfm_presentation.pptx`
-  (regenerate via `python report/create_presentation.py`)
 - **Notes:** `notes/01_project_overview.md`, `notes/02_environment_setup.md`,
   `notes/03_code_changes.md`, `notes/04_reproduction_log.md`
 
@@ -265,8 +254,7 @@ the table.
 | Pass-through through the supervised tracker | `phase2_vivor4/scripts/wait_for_radcom_and_run_next.py` | Each subset gets its own session root |
 | Experiment-aware dashboard, plot, summary, comparison manifests | `phase2_vivor4/scripts/{plot_local_detailed_eval,summarize_local_results,compare_with_official}.py` | Subset runs render visually distinct from the full-data ones |
 | Study scaffold script | `phase2_vivor4/scripts/prepare_modulation_subset_study.py` | Creates `phase2_vivor4/experiments/modulation_subset_study_<date>/` with prefilled tables and per-subset launchers |
-| Subset-study presentation generator | `report/create_subset_presentation.py` | Builds `report/wavesfm_subset_study.pptx` from raw run logs |
-| Per-class IQ visualisations (separate PNG per class/pair) | `report/figures/datasets/` | Used by the subset PPTX |
+| Per-class IQ visualisations (separate PNG per class / pair) | `report/figures/datasets/` | Reference plots used in the subset PPTX |
 
 ## How to Run the Subset Study
 
