@@ -182,26 +182,6 @@ This is operational scaffolding only. All actual run outputs land under
 
 ---
 
-## Report and Presentation Tooling (`report/`)
-
-| Script | Purpose |
-|--------|---------|
-| `create_architecture_diagram.py` | Renders 5 architecture PNGs (pretraining, transformer block, fine-tuning flow, three modes, LoRA deep dive) |
-| `create_architecture_pptx.py` | Builds the editable architecture PPTX from native shapes |
-| `create_presentation.py` | Builds the main 22-slide reproduction PPTX |
-| `create_subset_presentation.py` | Builds the dedicated modulation-subset PPTX (datasets, preprocessing, gallery, results, runtime) |
-| `create_task_visualizations.py` | Generates confusion matrices and error-density plots used in the report |
-| `extract_presentation_evidence.py` | Pulls real data points (sample tensors, label distributions) for the slide gallery |
-
-Generated assets live under `report/figures/`. Subset-study assets live under
-`report/figures/datasets/` (per-modulation IQ plots, constellations, amplitude
-envelopes, before/after normalisation, task input/output diagrams).
-
-The PPTX files in `report/` are ALWAYS regenerated from the Python scripts
-above. Manual edits in PowerPoint will be overwritten on next regeneration.
-
----
-
 ## Summary for Reporting
 
 When writing about this work, the following distinctions matter:
