@@ -13,7 +13,7 @@ All commands assume the current working directory is the project root
 Mac:
 
 ```bash
-ssh ngwn06
+ssh <lab-host>
 ```
 
 ---
@@ -230,48 +230,48 @@ bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260
 Study launchers, both tasks together:
 
 ```bash
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_1pct.sh'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_3pct.sh'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_5pct.sh'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_10pct.sh'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_50pct.sh'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_1pct.sh'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_3pct.sh'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_5pct.sh'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_10pct.sh'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_50pct.sh'
 ```
 
 Fresh single-task runs, `rml`:
 
 ```bash
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 1pct 0.01 rml'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 3pct 0.03 rml'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 5pct 0.05 rml'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 10pct 0.10 rml'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 50pct 0.50 rml'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 1pct 0.01 rml'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 3pct 0.03 rml'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 5pct 0.05 rml'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 10pct 0.10 rml'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 50pct 0.50 rml'
 ```
 
 Fresh single-task runs, `radcom`:
 
 ```bash
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 1pct 0.01 radcom'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 3pct 0.03 radcom'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 5pct 0.05 radcom'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 10pct 0.10 radcom'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 50pct 0.50 radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 1pct 0.01 radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 3pct 0.03 radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 5pct 0.05 radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 10pct 0.10 radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 50pct 0.50 radcom'
 ```
 
 Fresh two-task reruns with new session roots:
 
 ```bash
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 1pct 0.01 rml radcom'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 3pct 0.03 rml radcom'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 5pct 0.05 rml radcom'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 10pct 0.10 rml radcom'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 50pct 0.50 rml radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 1pct 0.01 rml radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 3pct 0.03 rml radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 5pct 0.05 rml radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 10pct 0.10 rml radcom'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 50pct 0.50 rml radcom'
 ```
 
 Single-mode or single-seed example:
 
 ```bash
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 5pct 0.05 rml -- --modes lora --seeds 0'
-ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 10pct 0.10 radcom -- --modes ft2 --seeds 1'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 5pct 0.05 rml -- --modes lora --seeds 0'
+ssh <lab-host> 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/run_modulation_subset_fresh.sh 10pct 0.10 radcom -- --modes ft2 --seeds 1'
 ```
 
 ## Quick monitoring
@@ -279,17 +279,17 @@ ssh ngwn06 'bash ~/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset
 Find the newest fresh `rml` run on the lab machine:
 
 ```bash
-ls -td /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_rml_* | head -n 1
+ls -td /local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_rml_* | head -n 1
 ```
 
 Tail the supervisor log for the newest fresh `rml` run:
 
 ```bash
-tail -f "$(ls -td /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_rml_* | head -n 1)/supervisor.log"
+tail -f "$(ls -td /local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_rml_* | head -n 1)/supervisor.log"
 ```
 
 Tail the training log for the newest fresh `rml` run:
 
 ```bash
-tail -f "$(ls -td /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_rml_* | head -n 1)/local_results/by_task/rml/lp/s0/log.txt"
+tail -f "$(ls -td /local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_rml_* | head -n 1)/local_results/by_task/rml/lp/s0/log.txt"
 ```

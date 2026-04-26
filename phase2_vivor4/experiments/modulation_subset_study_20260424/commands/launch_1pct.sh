@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd "/home/maheenfs/wavesfm_vivor4_m2"
+cd "/home/<user>/wavesfm_vivor4_m2"
 
-/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python \
+/home/<user>/wavesfm_vivor4_m2/.venv/bin/python \
   phase2_vivor4/scripts/run_tracker_supervised.py \
   --session-root \
-  /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06 \
+  /local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06 \
   --label \
   modulation_subset_1pct_20260424_ngwn06 \
   --restart-delay-seconds \
@@ -23,7 +23,7 @@ cd "/home/maheenfs/wavesfm_vivor4_m2"
   50 \
   -- \
   --session-root \
-  /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06 \
+  /local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06 \
   --tasks \
   rml \
   radcom \

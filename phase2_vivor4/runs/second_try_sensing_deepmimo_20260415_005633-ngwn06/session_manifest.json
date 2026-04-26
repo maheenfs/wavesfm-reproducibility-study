@@ -1,14 +1,14 @@
 {
-  "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+  "session_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
   "generated_at_utc": "2026-04-15T05:44:47.751416+00:00",
-  "host": "ngwn06",
-  "python_executable": "/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python3",
+  "host": "<lab-host>",
+  "python_executable": "/home/<user>/wavesfm_vivor4_m2/.venv/bin/python3",
   "python_version": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
   "tracker_command": [
     "python3",
     "phase2_vivor4/scripts/wait_for_radcom_and_run_next.py",
     "--session-root",
-    "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+    "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
     "--tasks",
     "sensing",
     "deepmimo-los",
@@ -22,27 +22,27 @@
     "1",
     "2",
     "--radcom-cache",
-    "/local/data0/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
+    "/local/data0/<user>/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
     "--num-workers",
     "4",
     "--save-every",
     "5"
   ],
-  "tracker_command_shell": "python3 phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06 --tasks sensing deepmimo-los deepmimo-beam --modes lp ft2 lora --seeds 0 1 2 --radcom-cache /local/data0/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5 --num-workers 4 --save-every 5",
+  "tracker_command_shell": "python3 phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06 --tasks sensing deepmimo-los deepmimo-beam --modes lp ft2 lora --seeds 0 1 2 --radcom-cache /local/data0/<user>/wavesfm_vivor4_m2/datasets_h5/radcom.h5 --num-workers 4 --save-every 5",
   "paths": {
-    "status_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_status.json",
-    "dashboard_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/dashboard.html",
-    "run_log_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_run.log",
-    "results_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task",
-    "plots_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/plot_manifest.json",
-    "summary_runs_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_runs.json",
-    "summary_agg_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_aggregated.json",
-    "summary_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/summary_manifest.json",
-    "comparison_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/local_vs_official.json",
-    "comparison_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/comparison_manifest.json",
-    "official_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
-    "checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
-    "cache_root": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5"
+    "status_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_status.json",
+    "dashboard_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/dashboard.html",
+    "run_log_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_run.log",
+    "results_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task",
+    "plots_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/plot_manifest.json",
+    "summary_runs_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_runs.json",
+    "summary_agg_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "summary_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/summary_manifest.json",
+    "comparison_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/local_vs_official.json",
+    "comparison_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/comparison_manifest.json",
+    "official_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
+    "checkpoint_path": "/home/<user>/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
+    "cache_root": "/home/<user>/wavesfm_vivor4_m2/datasets_h5"
   },
   "plan": {
     "tasks": [
@@ -90,7 +90,7 @@
     "memory_free_gb": 20.37017059326172,
     "memory_available_gb": 57.413551330566406,
     "memory_compressed_gb": null,
-    "workspace_disk_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task",
+    "workspace_disk_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task",
     "workspace_disk_total_gb": 1906.7960319519043,
     "workspace_disk_free_gb": 1838.9977340698242,
     "workspace_disk_used_pct": 3.555613539465881,
@@ -111,24 +111,24 @@
     "generated_at_utc": "2026-04-15T05:10:46.231645+00:00",
     "status": "ok",
     "summary": "0 error(s), 0 warning(s)",
-    "host": "ngwn06",
-    "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+    "host": "<lab-host>",
+    "session_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
     "paths": {
-      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
-      "imports_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/imports",
-      "results_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task",
-      "summary_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries",
-      "comparison_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons",
-      "plots_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots",
-      "detailed_plots_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/detailed_eval",
-      "plot_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/plot_manifest.json",
-      "summary_runs_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_runs.json",
-      "summary_agg_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_aggregated.json",
-      "summary_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/summary_manifest.json",
-      "comparison_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/local_vs_official.json",
-      "comparison_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/comparison_manifest.json",
-      "manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/session_manifest.json",
-      "preflight_report_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/preflight_report.json"
+      "session_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+      "imports_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/imports",
+      "results_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task",
+      "summary_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries",
+      "comparison_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons",
+      "plots_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots",
+      "detailed_plots_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/detailed_eval",
+      "plot_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/plot_manifest.json",
+      "summary_runs_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_runs.json",
+      "summary_agg_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_aggregated.json",
+      "summary_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/summary_manifest.json",
+      "comparison_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/local_vs_official.json",
+      "comparison_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/comparison_manifest.json",
+      "manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/session_manifest.json",
+      "preflight_report_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/preflight_report.json"
     },
     "plan": {
       "tasks": [
@@ -210,7 +210,7 @@
         "status": "ok",
         "detail": "pretrained checkpoint present",
         "extra": {
-          "path": "/home/maheenfs/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
+          "path": "/home/<user>/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
           "exists": true,
           "size_bytes": 29817867,
           "updated_at_utc": "2026-03-19T19:29:00+00:00"
@@ -226,13 +226,13 @@
             "deepmimo-beam"
           ],
           "cache": {
-            "path": "/local/data0/maheenfs/wavesfm_vivor4_m2/datasets_h5/deepmimo.h5",
+            "path": "/local/data0/<user>/wavesfm_vivor4_m2/datasets_h5/deepmimo.h5",
             "exists": true,
             "size_bytes": 127126392,
             "updated_at_utc": "2026-04-14T23:36:23.401202+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/deepmimo",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/deepmimo",
             "exists": false
           },
           "cache_name": "deepmimo.h5"
@@ -247,13 +247,13 @@
             "sensing"
           ],
           "cache": {
-            "path": "/local/data0/maheenfs/wavesfm_vivor4_m2/datasets_h5/has.h5",
+            "path": "/local/data0/<user>/wavesfm_vivor4_m2/datasets_h5/has.h5",
             "exists": true,
             "size_bytes": 770854856,
             "updated_at_utc": "2026-04-14T20:46:01.205758+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/has/NTU-Fi_HAR",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/has/NTU-Fi_HAR",
             "exists": false
           },
           "cache_name": "has.h5"
@@ -262,27 +262,27 @@
       {
         "name": "writable:session_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
       },
       {
         "name": "writable:results_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task"
       },
       {
         "name": "writable:summary_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries"
       },
       {
         "name": "writable:plots_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots"
       },
       {
         "name": "writable:comparison_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons"
       },
       {
         "name": "session-cleanliness",

@@ -9,16 +9,16 @@
       "task": "sensing",
       "mode": "lora",
       "seed": 1,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/sensing/lora/s1/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/sensing/lora/s1/best.pth",
       "caption": "Local pca: 98.7033 +/- 0.3118 across 3 seed(s); plotted all_seeds | Official pca: 98.4700",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]

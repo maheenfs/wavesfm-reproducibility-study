@@ -7,16 +7,16 @@
       "task": "deepmimo-beam",
       "mode": "ft2",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-beam/ft2/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-beam/ft2/s2/best.pth",
       "caption": "Local pca: 68.6502 +/- 1.3920 across 3 seed(s); plotted all_seeds | Official pca: 78.3800",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -25,16 +25,16 @@
       "task": "deepmimo-beam",
       "mode": "lora",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-beam/lora/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-beam/lora/s2/best.pth",
       "caption": "Local pca: 67.5579 +/- 0.2254 across 3 seed(s); plotted all_seeds | Official pca: 77.3800",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -43,16 +43,16 @@
       "task": "deepmimo-beam",
       "mode": "lp",
       "seed": 1,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-beam/lp/s1/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-beam/lp/s1/best.pth",
       "caption": "Local pca: 55.8015 +/- 0.5155 across 3 seed(s); plotted all_seeds | Official pca: 67.6700",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -61,16 +61,16 @@
       "task": "deepmimo-los",
       "mode": "ft2",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-los/ft2/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-los/ft2/s2/best.pth",
       "caption": "Local pca: 95.4668 +/- 0.2632 across 3 seed(s); plotted all_seeds | Official pca: 95.4600",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -79,16 +79,16 @@
       "task": "deepmimo-los",
       "mode": "lora",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-los/lora/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-los/lora/s2/best.pth",
       "caption": "Local pca: 95.3229 +/- 0.2805 across 3 seed(s); plotted all_seeds | Official pca: 95.2400",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -97,16 +97,16 @@
       "task": "deepmimo-los",
       "mode": "lp",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-los/lp/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-los/lp/s2/best.pth",
       "caption": "Local pca: 95.1207 +/- 0.6179 across 3 seed(s); plotted all_seeds | Official pca: 95.0200",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -115,16 +115,16 @@
       "task": "interf",
       "mode": "ft2",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/interf/ft2/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/interf/ft2/s2/best.pth",
       "caption": "Local pca: 78.8333 +/- 1.3811 across 3 seed(s); plotted all_seeds | Official pca: 78.9400",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/ft2/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/ft2/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/ft2/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/ft2/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/ft2/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/ft2/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/ft2/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/ft2/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -133,16 +133,16 @@
       "task": "interf",
       "mode": "lora",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/interf/lora/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/interf/lora/s2/best.pth",
       "caption": "Local pca: 79.6667 +/- 0.6236 across 3 seed(s); plotted all_seeds | Official pca: 78.9400",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lora/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lora/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lora/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lora/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lora/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lora/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lora/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lora/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -151,16 +151,16 @@
       "task": "interf",
       "mode": "lp",
       "seed": 0,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/interf/lp/s0/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/interf/lp/s0/best.pth",
       "caption": "Local pca: 71.1667 +/- 1.2247 across 3 seed(s); plotted all_seeds | Official pca: 71.5000",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lp/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lp/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lp/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lp/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lp/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lp/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lp/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/interf/lp/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -169,15 +169,15 @@
       "task": "pos",
       "mode": "ft2",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/pos/ft2/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/pos/ft2/s2/best.pth",
       "caption": "Local mean_error: 1.2600 +/- 0.0836 across 3 seed(s); plotted all_seeds | Official mean_error: 1.2400",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/ft2/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/ft2/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/ft2/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/ft2/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/ft2/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/ft2/all_seeds_position_error_density.npz"
           ]
         }
       ]
@@ -186,15 +186,15 @@
       "task": "pos",
       "mode": "lora",
       "seed": 1,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/pos/lora/s1/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/pos/lora/s1/best.pth",
       "caption": "Local mean_error: 1.5051 +/- 0.0684 across 3 seed(s); plotted all_seeds | Official mean_error: 1.4500",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lora/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lora/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lora/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lora/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lora/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lora/all_seeds_position_error_density.npz"
           ]
         }
       ]
@@ -203,15 +203,15 @@
       "task": "pos",
       "mode": "lp",
       "seed": 1,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/pos/lp/s1/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/pos/lp/s1/best.pth",
       "caption": "Local mean_error: 3.1390 +/- 0.0357 across 3 seed(s); plotted all_seeds | Official mean_error: 3.1700",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lp/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lp/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lp/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lp/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lp/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lp/all_seeds_position_error_density.npz"
           ]
         }
       ]
@@ -220,16 +220,16 @@
       "task": "radcom",
       "mode": "ft2",
       "seed": 1,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/radcom/ft2/s1/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/radcom/ft2/s1/best.pth",
       "caption": "Local pca: 94.6148 +/- 0.0522 across 3 seed(s); plotted all_seeds | Official pca: 94.5300",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -238,16 +238,16 @@
       "task": "radcom",
       "mode": "lora",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/radcom/lora/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/radcom/lora/s2/best.pth",
       "caption": "Local pca: 94.0655 +/- 0.3188 across 3 seed(s); plotted all_seeds | Official pca: 93.7800",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -256,16 +256,16 @@
       "task": "radcom",
       "mode": "lp",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/radcom/lp/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/radcom/lp/s2/best.pth",
       "caption": "Local pca: 90.1228 +/- 0.0525 across 3 seed(s); plotted all_seeds | Official pca: 90.1000",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lp/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lp/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lp/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lp/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lp/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lp/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lp/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lp/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -274,16 +274,16 @@
       "task": "rfp",
       "mode": "ft2",
       "seed": 1,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rfp/ft2/s1/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rfp/ft2/s1/best.pth",
       "caption": "Local pca: 99.6963 +/- 0.0154 across 3 seed(s); plotted all_seeds | Official pca: 99.7000",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/ft2/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/ft2/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/ft2/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/ft2/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/ft2/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/ft2/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/ft2/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/ft2/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -292,16 +292,16 @@
       "task": "rfp",
       "mode": "lora",
       "seed": 1,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rfp/lora/s1/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rfp/lora/s1/best.pth",
       "caption": "Local pca: 99.8352 +/- 0.0122 across 3 seed(s); plotted all_seeds | Official pca: 99.8200",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lora/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lora/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lora/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lora/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lora/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lora/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lora/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lora/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -310,16 +310,16 @@
       "task": "rfp",
       "mode": "lp",
       "seed": 0,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rfp/lp/s0/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rfp/lp/s0/best.pth",
       "caption": "Local pca: 98.9799 +/- 0.0159 across 3 seed(s); plotted all_seeds | Official pca: 98.9700",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lp/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lp/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lp/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lp/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lp/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lp/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lp/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rfp/lp/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -328,16 +328,16 @@
       "task": "rml",
       "mode": "ft2",
       "seed": 0,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/ft2/s0/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/ft2/s0/best.pth",
       "caption": "Local pca: 55.1408 +/- 0.1663 across 3 seed(s); plotted all_seeds | Official pca: 55.1600",
       "plots": [
         {
           "kind": "rml_overview",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview_label_map.json"
           ]
         }
       ]
@@ -346,16 +346,16 @@
       "task": "rml",
       "mode": "lora",
       "seed": 0,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lora/s0/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lora/s0/best.pth",
       "caption": "Local pca: 56.4197 +/- 0.0842 across 3 seed(s); plotted all_seeds | Official pca: 56.4900",
       "plots": [
         {
           "kind": "rml_overview",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lora/all_seeds_rml_overview.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lora/all_seeds_rml_overview.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lora/all_seeds_rml_overview.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lora/all_seeds_rml_overview_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lora/all_seeds_rml_overview.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lora/all_seeds_rml_overview.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lora/all_seeds_rml_overview.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lora/all_seeds_rml_overview_label_map.json"
           ]
         }
       ]
@@ -364,16 +364,16 @@
       "task": "rml",
       "mode": "lp",
       "seed": 0,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s0/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s0/best.pth",
       "caption": "Local pca: 50.3935 +/- 0.0962 across 3 seed(s); plotted all_seeds | Official pca: 50.3900",
       "plots": [
         {
           "kind": "rml_overview",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lp/all_seeds_rml_overview.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lp/all_seeds_rml_overview.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lp/all_seeds_rml_overview.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lp/all_seeds_rml_overview_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lp/all_seeds_rml_overview.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lp/all_seeds_rml_overview.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lp/all_seeds_rml_overview.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/lp/all_seeds_rml_overview_label_map.json"
           ]
         }
       ]
@@ -382,16 +382,16 @@
       "task": "sensing",
       "mode": "ft2",
       "seed": 1,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/sensing/ft2/s1/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/sensing/ft2/s1/best.pth",
       "caption": "Local pca: 98.5991 +/- 0.1512 across 3 seed(s); plotted all_seeds | Official pca: 99.3100",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -400,16 +400,16 @@
       "task": "sensing",
       "mode": "lora",
       "seed": 1,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/sensing/lora/s1/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/sensing/lora/s1/best.pth",
       "caption": "Local pca: 98.7033 +/- 0.3118 across 3 seed(s); plotted all_seeds | Official pca: 98.4700",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -418,16 +418,16 @@
       "task": "sensing",
       "mode": "lp",
       "seed": 0,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/sensing/lp/s0/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/sensing/lp/s0/best.pth",
       "caption": "Local pca: 94.1345 +/- 1.7362 across 3 seed(s); plotted all_seeds | Official pca: 94.4200",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -436,15 +436,15 @@
       "task": "uwb-indoor",
       "mode": "ft2",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-indoor/ft2/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-indoor/ft2/s2/best.pth",
       "caption": "Local mean_error: 0.8242 +/- 0.0061 across 3 seed(s); plotted all_seeds | Official mean_error: 0.8300",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/ft2/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/ft2/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/ft2/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/ft2/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/ft2/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/ft2/all_seeds_position_error_density.npz"
           ]
         }
       ]
@@ -453,15 +453,15 @@
       "task": "uwb-indoor",
       "mode": "lora",
       "seed": 0,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-indoor/lora/s0/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-indoor/lora/s0/best.pth",
       "caption": "Local mean_error: 0.6455 +/- 0.0158 across 3 seed(s); plotted all_seeds | Official mean_error: 0.6500",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lora/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lora/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lora/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lora/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lora/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lora/all_seeds_position_error_density.npz"
           ]
         }
       ]
@@ -470,15 +470,15 @@
       "task": "uwb-indoor",
       "mode": "lp",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-indoor/lp/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-indoor/lp/s2/best.pth",
       "caption": "Local mean_error: 1.4411 +/- 0.0187 across 3 seed(s); plotted all_seeds | Official mean_error: 1.4300",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lp/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lp/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lp/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lp/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lp/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-indoor/lp/all_seeds_position_error_density.npz"
           ]
         }
       ]
@@ -487,15 +487,15 @@
       "task": "uwb-industrial",
       "mode": "ft2",
       "seed": 0,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-industrial/ft2/s0/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-industrial/ft2/s0/best.pth",
       "caption": "Local mean_error: 0.8767 +/- 0.0105 across 3 seed(s); plotted all_seeds | Official mean_error: 0.8800",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/ft2/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/ft2/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/ft2/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/ft2/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/ft2/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/ft2/all_seeds_position_error_density.npz"
           ]
         }
       ]
@@ -504,15 +504,15 @@
       "task": "uwb-industrial",
       "mode": "lora",
       "seed": 0,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-industrial/lora/s0/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-industrial/lora/s0/best.pth",
       "caption": "Local mean_error: 0.7386 +/- 0.0066 across 3 seed(s); plotted all_seeds | Official mean_error: 0.7400",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lora/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lora/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lora/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lora/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lora/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lora/all_seeds_position_error_density.npz"
           ]
         }
       ]
@@ -521,26 +521,26 @@
       "task": "uwb-industrial",
       "mode": "lp",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-industrial/lp/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-industrial/lp/s2/best.pth",
       "caption": "Local mean_error: 2.7113 +/- 0.0095 across 3 seed(s); plotted all_seeds | Official mean_error: 2.7100",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.npz"
           ]
         }
       ]
     }
   ],
-  "by_task_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task",
+  "by_task_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task",
   "by_task_mode": [
     {
       "task": "deepmimo-beam",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-beam/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-beam/ft2.json",
       "seeds": [
         2
       ]
@@ -548,7 +548,7 @@
     {
       "task": "deepmimo-beam",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-beam/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-beam/lora.json",
       "seeds": [
         2
       ]
@@ -556,7 +556,7 @@
     {
       "task": "deepmimo-beam",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-beam/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-beam/lp.json",
       "seeds": [
         1
       ]
@@ -564,7 +564,7 @@
     {
       "task": "deepmimo-los",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-los/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-los/ft2.json",
       "seeds": [
         2
       ]
@@ -572,7 +572,7 @@
     {
       "task": "deepmimo-los",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-los/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-los/lora.json",
       "seeds": [
         2
       ]
@@ -580,7 +580,7 @@
     {
       "task": "deepmimo-los",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-los/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/deepmimo-los/lp.json",
       "seeds": [
         2
       ]
@@ -588,7 +588,7 @@
     {
       "task": "interf",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/interf/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/interf/ft2.json",
       "seeds": [
         2
       ]
@@ -596,7 +596,7 @@
     {
       "task": "interf",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/interf/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/interf/lora.json",
       "seeds": [
         2
       ]
@@ -604,7 +604,7 @@
     {
       "task": "interf",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/interf/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/interf/lp.json",
       "seeds": [
         0
       ]
@@ -612,7 +612,7 @@
     {
       "task": "pos",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/pos/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/pos/ft2.json",
       "seeds": [
         2
       ]
@@ -620,7 +620,7 @@
     {
       "task": "pos",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/pos/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/pos/lora.json",
       "seeds": [
         1
       ]
@@ -628,7 +628,7 @@
     {
       "task": "pos",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/pos/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/pos/lp.json",
       "seeds": [
         1
       ]
@@ -636,7 +636,7 @@
     {
       "task": "radcom",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/radcom/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/radcom/ft2.json",
       "seeds": [
         1
       ]
@@ -644,7 +644,7 @@
     {
       "task": "radcom",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/radcom/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/radcom/lora.json",
       "seeds": [
         2
       ]
@@ -652,7 +652,7 @@
     {
       "task": "radcom",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/radcom/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/radcom/lp.json",
       "seeds": [
         2
       ]
@@ -660,7 +660,7 @@
     {
       "task": "rfp",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rfp/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rfp/ft2.json",
       "seeds": [
         1
       ]
@@ -668,7 +668,7 @@
     {
       "task": "rfp",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rfp/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rfp/lora.json",
       "seeds": [
         1
       ]
@@ -676,7 +676,7 @@
     {
       "task": "rfp",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rfp/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rfp/lp.json",
       "seeds": [
         0
       ]
@@ -684,7 +684,7 @@
     {
       "task": "rml",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rml/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rml/ft2.json",
       "seeds": [
         0
       ]
@@ -692,7 +692,7 @@
     {
       "task": "rml",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rml/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rml/lora.json",
       "seeds": [
         0
       ]
@@ -700,7 +700,7 @@
     {
       "task": "rml",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rml/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/rml/lp.json",
       "seeds": [
         0
       ]
@@ -708,7 +708,7 @@
     {
       "task": "sensing",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/sensing/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/sensing/ft2.json",
       "seeds": [
         1
       ]
@@ -716,7 +716,7 @@
     {
       "task": "sensing",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/sensing/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/sensing/lora.json",
       "seeds": [
         1
       ]
@@ -724,7 +724,7 @@
     {
       "task": "sensing",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/sensing/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/sensing/lp.json",
       "seeds": [
         0
       ]
@@ -732,7 +732,7 @@
     {
       "task": "uwb-indoor",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-indoor/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-indoor/ft2.json",
       "seeds": [
         2
       ]
@@ -740,7 +740,7 @@
     {
       "task": "uwb-indoor",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-indoor/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-indoor/lora.json",
       "seeds": [
         0
       ]
@@ -748,7 +748,7 @@
     {
       "task": "uwb-indoor",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-indoor/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-indoor/lp.json",
       "seeds": [
         2
       ]
@@ -756,7 +756,7 @@
     {
       "task": "uwb-industrial",
       "mode": "ft2",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-industrial/ft2.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-industrial/ft2.json",
       "seeds": [
         0
       ]
@@ -764,7 +764,7 @@
     {
       "task": "uwb-industrial",
       "mode": "lora",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-industrial/lora.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-industrial/lora.json",
       "seeds": [
         0
       ]
@@ -772,7 +772,7 @@
     {
       "task": "uwb-industrial",
       "mode": "lp",
-      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-industrial/lp.json",
+      "bundle_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/by_task/uwb-industrial/lp.json",
       "seeds": [
         2
       ]

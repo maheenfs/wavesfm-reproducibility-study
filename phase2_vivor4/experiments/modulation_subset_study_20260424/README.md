@@ -9,8 +9,8 @@ Contents:
 - `study_manifest.json`: machine-readable study plan.
 
 Planned sessions:
-- `1%` -> `/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06`
-- `3%` -> `/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_3pct_20260424_ngwn06`
-- `5%` -> `/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06`
-- `10%` -> `/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06`
-- `50%` -> `/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06`
+- `1%` -> `/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06`
+- `3%` -> `/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_3pct_20260424_ngwn06`
+- `5%` -> `/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06`
+- `10%` -> `/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06`
+- `50%` -> `/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06`

@@ -6,16 +6,16 @@
       "task": "lwm-beam-challenge",
       "mode": "ft2",
       "seed": 0,
-      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task/lwm-beam-challenge/ft2/s0/best.pth",
+      "checkpoint": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task/lwm-beam-challenge/ft2/s0/best.pth",
       "caption": "Local pca: 1.6840 +/- 0.0650 across 3 seed(s); plotted all_seeds",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/ft2/all_seeds_confusion_matrix.png",
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/ft2/all_seeds_confusion_matrix.svg",
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/ft2/all_seeds_confusion_matrix.npz",
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/ft2/all_seeds_confusion_matrix_label_map.json"
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/ft2/all_seeds_confusion_matrix.png",
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/ft2/all_seeds_confusion_matrix.svg",
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/ft2/all_seeds_confusion_matrix.npz",
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/ft2/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -24,16 +24,16 @@
       "task": "lwm-beam-challenge",
       "mode": "lora",
       "seed": 0,
-      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task/lwm-beam-challenge/lora/s0/best.pth",
+      "checkpoint": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task/lwm-beam-challenge/lora/s0/best.pth",
       "caption": "Local pca: 1.6927 +/- 0.1841 across 3 seed(s); plotted all_seeds",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lora/all_seeds_confusion_matrix.png",
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lora/all_seeds_confusion_matrix.svg",
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lora/all_seeds_confusion_matrix.npz",
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lora/all_seeds_confusion_matrix_label_map.json"
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lora/all_seeds_confusion_matrix.png",
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lora/all_seeds_confusion_matrix.svg",
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lora/all_seeds_confusion_matrix.npz",
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lora/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
@@ -42,16 +42,16 @@
       "task": "lwm-beam-challenge",
       "mode": "lp",
       "seed": 1,
-      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task/lwm-beam-challenge/lp/s1/best.pth",
+      "checkpoint": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task/lwm-beam-challenge/lp/s1/best.pth",
       "caption": "Local pca: 1.8750 +/- 0.3707 across 3 seed(s); plotted all_seeds",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lp/all_seeds_confusion_matrix.png",
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lp/all_seeds_confusion_matrix.svg",
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lp/all_seeds_confusion_matrix.npz",
-            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lp/all_seeds_confusion_matrix_label_map.json"
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lp/all_seeds_confusion_matrix.png",
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lp/all_seeds_confusion_matrix.svg",
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lp/all_seeds_confusion_matrix.npz",
+            "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/lwm-beam-challenge/lp/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]

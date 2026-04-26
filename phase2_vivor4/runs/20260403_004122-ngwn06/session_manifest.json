@@ -1,14 +1,14 @@
 {
-  "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+  "session_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
   "generated_at_utc": "2026-04-03T21:37:25.979090+00:00",
-  "host": "ngwn06",
-  "python_executable": "/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python3",
+  "host": "<lab-host>",
+  "python_executable": "/home/<user>/wavesfm_vivor4_m2/.venv/bin/python3",
   "python_version": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
   "tracker_command": [
     "python3",
     "phase2_vivor4/scripts/wait_for_radcom_and_run_next.py",
     "--session-root",
-    "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+    "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
     "--tasks",
     "sensing",
     "pos",
@@ -29,27 +29,27 @@
     "1",
     "2",
     "--radcom-cache",
-    "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
+    "/home/<user>/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
     "--num-workers",
     "4",
     "--save-every",
     "5"
   ],
-  "tracker_command_shell": "python3 phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06 --tasks sensing pos uwb-indoor uwb-industrial radcom rml rfp interf deepmimo-los deepmimo-beam --modes lp ft2 lora --seeds 0 1 2 --radcom-cache /home/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5 --num-workers 4 --save-every 5",
+  "tracker_command_shell": "python3 phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06 --tasks sensing pos uwb-indoor uwb-industrial radcom rml rfp interf deepmimo-los deepmimo-beam --modes lp ft2 lora --seeds 0 1 2 --radcom-cache /home/<user>/wavesfm_vivor4_m2/datasets_h5/radcom.h5 --num-workers 4 --save-every 5",
   "paths": {
-    "status_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_status.json",
-    "dashboard_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/dashboard.html",
-    "run_log_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_run.log",
-    "results_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task",
-    "plots_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/plot_manifest.json",
-    "summary_runs_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_runs.json",
-    "summary_agg_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_aggregated.json",
-    "summary_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/summary_manifest.json",
-    "comparison_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/local_vs_official.json",
-    "comparison_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/comparison_manifest.json",
-    "official_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
-    "checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
-    "cache_root": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5"
+    "status_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_status.json",
+    "dashboard_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/dashboard.html",
+    "run_log_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_run.log",
+    "results_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task",
+    "plots_manifest_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/plot_manifest.json",
+    "summary_runs_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_runs.json",
+    "summary_agg_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "summary_manifest_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/summary_manifest.json",
+    "comparison_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/local_vs_official.json",
+    "comparison_manifest_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/comparison_manifest.json",
+    "official_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
+    "checkpoint_path": "/home/<user>/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
+    "cache_root": "/home/<user>/wavesfm_vivor4_m2/datasets_h5"
   },
   "plan": {
     "tasks": [
@@ -104,7 +104,7 @@
     "memory_free_gb": 30.726192474365234,
     "memory_available_gb": 57.18451690673828,
     "memory_compressed_gb": null,
-    "workspace_disk_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task",
+    "workspace_disk_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task",
     "workspace_disk_total_gb": 430.4830627441406,
     "workspace_disk_free_gb": 13.871685028076172,
     "workspace_disk_used_pct": 91.68165046548404,
@@ -125,24 +125,24 @@
     "generated_at_utc": "2026-04-03T05:56:08.157624+00:00",
     "status": "ok",
     "summary": "0 error(s), 0 warning(s)",
-    "host": "ngwn06",
-    "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+    "host": "<lab-host>",
+    "session_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
     "paths": {
-      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
-      "imports_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/imports",
-      "results_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task",
-      "summary_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries",
-      "plots_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots",
-      "detailed_plots_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/detailed_eval",
-      "plot_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/plot_manifest.json",
-      "comparison_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons",
-      "comparison_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/local_vs_official.json",
-      "comparison_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/comparison_manifest.json",
-      "summary_runs_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_runs.json",
-      "summary_agg_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_aggregated.json",
-      "summary_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/summary_manifest.json",
-      "manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/session_manifest.json",
-      "preflight_report_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/preflight_report.json"
+      "session_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+      "imports_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/imports",
+      "results_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task",
+      "summary_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries",
+      "plots_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots",
+      "detailed_plots_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/detailed_eval",
+      "plot_manifest_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/plot_manifest.json",
+      "comparison_root": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons",
+      "comparison_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/local_vs_official.json",
+      "comparison_manifest_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/comparison_manifest.json",
+      "summary_runs_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_runs.json",
+      "summary_agg_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_aggregated.json",
+      "summary_manifest_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/summary_manifest.json",
+      "manifest_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/session_manifest.json",
+      "preflight_report_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/preflight_report.json"
     },
     "plan": {
       "tasks": [
@@ -220,7 +220,7 @@
         "status": "ok",
         "detail": "pretrained checkpoint present",
         "extra": {
-          "path": "/home/maheenfs/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
+          "path": "/home/<user>/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
           "exists": true,
           "size_bytes": 29817867,
           "updated_at_utc": "2026-03-19T19:29:00+00:00"
@@ -236,13 +236,13 @@
             "deepmimo-beam"
           ],
           "cache": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/deepmimo.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_h5/deepmimo.h5",
             "exists": true,
             "size_bytes": 127001032,
             "updated_at_utc": "2026-03-31T03:56:50.792819+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/deepmimo",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/deepmimo",
             "exists": false
           },
           "cache_name": "deepmimo.h5"
@@ -257,13 +257,13 @@
             "sensing"
           ],
           "cache": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/has.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_h5/has.h5",
             "exists": true,
             "size_bytes": 770782056,
             "updated_at_utc": "2026-03-31T03:09:52.905668+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/has/NTU-Fi_HAR",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/has/NTU-Fi_HAR",
             "exists": false
           },
           "cache_name": "has.h5"
@@ -278,13 +278,13 @@
             "interf"
           ],
           "cache": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/icarus.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_h5/icarus.h5",
             "exists": true,
             "size_bytes": 84304080,
             "updated_at_utc": "2026-03-31T03:53:45.228474+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/icarus",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/icarus",
             "exists": false
           },
           "cache_name": "icarus.h5"
@@ -299,13 +299,13 @@
             "pos"
           ],
           "cache": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/nrpos-outdoor.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_h5/nrpos-outdoor.h5",
             "exists": true,
             "size_bytes": 9454858728,
             "updated_at_utc": "2026-03-31T03:10:24.279662+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/pos",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/pos",
             "exists": false
           },
           "cache_name": "nrpos-outdoor.h5"
@@ -320,13 +320,13 @@
             "radcom"
           ],
           "cache": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
             "exists": true,
             "size_bytes": 636789408,
             "updated_at_utc": "2026-03-31T06:17:27.340304+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/radcom/radcom_source.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/radcom/radcom_source.h5",
             "exists": false
           },
           "cache_name": "radcom.h5"
@@ -341,13 +341,13 @@
             "rfp"
           ],
           "cache": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/rfp.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_h5/rfp.h5",
             "exists": true,
             "size_bytes": 4358720232,
             "updated_at_utc": "2026-04-02T22:05:06.627700+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/rfp/GlobecomPOWDER",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/rfp/GlobecomPOWDER",
             "exists": false
           },
           "cache_name": "rfp.h5"
@@ -362,13 +362,13 @@
             "rml"
           ],
           "cache": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/rml22.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_h5/rml22.h5",
             "exists": true,
             "size_bytes": 497186992,
             "updated_at_utc": "2026-03-31T03:52:24.199816+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/rml22/RML22.01A",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/rml22/RML22.01A",
             "exists": false
           },
           "cache_name": "rml22.h5"
@@ -383,13 +383,13 @@
             "uwb-indoor"
           ],
           "cache": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/environment0.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_h5/environment0.h5",
             "exists": true,
             "size_bytes": 1027803706,
             "updated_at_utc": "2026-03-31T03:11:15.351865+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/uwb_indoor",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/uwb_indoor",
             "exists": false
           },
           "cache_name": "environment0.h5"
@@ -404,13 +404,13 @@
             "uwb-industrial"
           ],
           "cache": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/ipin-train.h5",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_h5/ipin-train.h5",
             "exists": true,
             "size_bytes": 722474104,
             "updated_at_utc": "2026-03-31T03:12:30.293177+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/uwb_industrial/industrial_training.pkl",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/uwb_industrial/industrial_training.pkl",
             "exists": false
           },
           "cache_name": "ipin-train.h5"
@@ -419,27 +419,27 @@
       {
         "name": "writable:session_root",
         "status": "ok",
-        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+        "detail": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
       },
       {
         "name": "writable:results_root",
         "status": "ok",
-        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task"
+        "detail": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task"
       },
       {
         "name": "writable:summary_root",
         "status": "ok",
-        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries"
+        "detail": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries"
       },
       {
         "name": "writable:plots_root",
         "status": "ok",
-        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots"
+        "detail": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots"
       },
       {
         "name": "writable:comparison_root",
         "status": "ok",
-        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons"
+        "detail": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons"
       },
       {
         "name": "session-cleanliness",

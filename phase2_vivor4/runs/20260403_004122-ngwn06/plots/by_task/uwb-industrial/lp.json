@@ -9,15 +9,15 @@
       "task": "uwb-industrial",
       "mode": "lp",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-industrial/lp/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-industrial/lp/s2/best.pth",
       "caption": "Local mean_error: 2.7113 +/- 0.0095 across 3 seed(s); plotted all_seeds | Official mean_error: 2.7100",
       "plots": [
         {
           "kind": "position_error_density",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.npz"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/lp/all_seeds_position_error_density.npz"
           ]
         }
       ]

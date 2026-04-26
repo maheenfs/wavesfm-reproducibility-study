@@ -1,14 +1,14 @@
 {
-  "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06",
+  "session_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06",
   "generated_at_utc": "2026-04-15T18:17:56.067595+00:00",
-  "host": "ngwn06",
-  "python_executable": "/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python3",
+  "host": "<lab-host>",
+  "python_executable": "/home/<user>/wavesfm_vivor4_m2/.venv/bin/python3",
   "python_version": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
   "tracker_command": [
     "python3",
     "phase2_vivor4/scripts/wait_for_radcom_and_run_next.py",
     "--session-root",
-    "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06",
+    "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06",
     "--tasks",
     "lwm-beam-challenge",
     "--modes",
@@ -20,27 +20,27 @@
     "1",
     "2",
     "--radcom-cache",
-    "/local/data0/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
+    "/local/data0/<user>/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
     "--num-workers",
     "4",
     "--save-every",
     "5"
   ],
-  "tracker_command_shell": "python3 phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06 --tasks lwm-beam-challenge --modes lp ft2 lora --seeds 0 1 2 --radcom-cache /local/data0/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5 --num-workers 4 --save-every 5",
+  "tracker_command_shell": "python3 phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06 --tasks lwm-beam-challenge --modes lp ft2 lora --seeds 0 1 2 --radcom-cache /local/data0/<user>/wavesfm_vivor4_m2/datasets_h5/radcom.h5 --num-workers 4 --save-every 5",
   "paths": {
-    "status_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_status.json",
-    "dashboard_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/dashboard.html",
-    "run_log_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_run.log",
-    "results_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task",
-    "plots_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/plot_manifest.json",
-    "summary_runs_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_runs.json",
-    "summary_agg_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_aggregated.json",
-    "summary_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/summary_manifest.json",
-    "comparison_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons/local_vs_official.json",
-    "comparison_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons/comparison_manifest.json",
-    "official_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
-    "checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
-    "cache_root": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5"
+    "status_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_status.json",
+    "dashboard_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/dashboard.html",
+    "run_log_path": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_run.log",
+    "results_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task",
+    "plots_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/plot_manifest.json",
+    "summary_runs_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_runs.json",
+    "summary_agg_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "summary_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/summary_manifest.json",
+    "comparison_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons/local_vs_official.json",
+    "comparison_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons/comparison_manifest.json",
+    "official_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
+    "checkpoint_path": "/home/<user>/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
+    "cache_root": "/home/<user>/wavesfm_vivor4_m2/datasets_h5"
   },
   "plan": {
     "tasks": [
@@ -86,7 +86,7 @@
     "memory_free_gb": 15.365116119384766,
     "memory_available_gb": 58.599029541015625,
     "memory_compressed_gb": null,
-    "workspace_disk_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task",
+    "workspace_disk_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task",
     "workspace_disk_total_gb": 1906.7960319519043,
     "workspace_disk_free_gb": 1833.3963317871094,
     "workspace_disk_used_pct": 3.8493734481741515,
@@ -107,24 +107,24 @@
     "generated_at_utc": "2026-04-15T18:07:22.213787+00:00",
     "status": "ok",
     "summary": "0 error(s), 0 warning(s)",
-    "host": "ngwn06",
-    "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06",
+    "host": "<lab-host>",
+    "session_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06",
     "paths": {
-      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06",
-      "imports_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/imports",
-      "results_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task",
-      "summary_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries",
-      "comparison_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons",
-      "plots_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots",
-      "detailed_plots_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/detailed_eval",
-      "plot_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/plot_manifest.json",
-      "summary_runs_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_runs.json",
-      "summary_agg_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_aggregated.json",
-      "summary_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/summary_manifest.json",
-      "comparison_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons/local_vs_official.json",
-      "comparison_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons/comparison_manifest.json",
-      "manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/session_manifest.json",
-      "preflight_report_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/preflight_report.json"
+      "session_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06",
+      "imports_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/imports",
+      "results_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task",
+      "summary_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries",
+      "comparison_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons",
+      "plots_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots",
+      "detailed_plots_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/detailed_eval",
+      "plot_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots/plot_manifest.json",
+      "summary_runs_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_runs.json",
+      "summary_agg_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_aggregated.json",
+      "summary_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/summary_manifest.json",
+      "comparison_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons/local_vs_official.json",
+      "comparison_manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons/comparison_manifest.json",
+      "manifest_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/session_manifest.json",
+      "preflight_report_path": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/preflight_report.json"
     },
     "plan": {
       "tasks": [
@@ -200,7 +200,7 @@
         "status": "ok",
         "detail": "pretrained checkpoint present",
         "extra": {
-          "path": "/home/maheenfs/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
+          "path": "/home/<user>/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
           "exists": true,
           "size_bytes": 29817867,
           "updated_at_utc": "2026-03-19T19:29:00+00:00"
@@ -215,13 +215,13 @@
             "lwm-beam-challenge"
           ],
           "cache": {
-            "path": "/local/data0/maheenfs/wavesfm_vivor4_m2/datasets_h5/lwm-beam-challenge.h5",
+            "path": "/local/data0/<user>/wavesfm_vivor4_m2/datasets_h5/lwm-beam-challenge.h5",
             "exists": true,
             "size_bytes": 11470277,
             "updated_at_utc": "2026-04-15T18:01:12.077453+00:00"
           },
           "raw": {
-            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/deepmimo/lwm_beam_labels/beam_prediction_challenge",
+            "path": "/home/<user>/wavesfm_vivor4_m2/datasets_raw/deepmimo/lwm_beam_labels/beam_prediction_challenge",
             "exists": true,
             "size_bytes": 31,
             "updated_at_utc": "2026-04-15T17:46:21.231462+00:00"
@@ -232,27 +232,27 @@
       {
         "name": "writable:session_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06"
       },
       {
         "name": "writable:results_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task"
       },
       {
         "name": "writable:summary_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries"
       },
       {
         "name": "writable:plots_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/plots"
       },
       {
         "name": "writable:comparison_root",
         "status": "ok",
-        "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons"
+        "detail": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/comparisons"
       },
       {
         "name": "session-cleanliness",

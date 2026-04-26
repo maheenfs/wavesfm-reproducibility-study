@@ -1,6 +1,6 @@
 Subset %,Session Root,Runs Planned,Runs Completed,Tasks,Modes,Seeds,RML Train Size Used,RADCOM Train Size Used,Total Session Time,Plot Stage Time,Summary Stage Time,Comparison Stage Time,Peak GPU Memory,Peak Host RAM,GPU Type,CPU / Worker Count,Status,Notes
-1%,/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","3,696","4,536",,,,,,,,4,planned,
-3%,/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_3pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","11,088","13,608",,,,,,,,4,planned,
-5%,/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","18,480","22,680",,,,,,,,4,planned,
-10%,/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","36,960","45,360",,,,,,,,4,planned,
-50%,/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","184,800","226,800",,,,,,,,4,planned,
+1%,/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","3,696","4,536",,,,,,,,4,planned,
+3%,/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_3pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","11,088","13,608",,,,,,,,4,planned,
+5%,/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","18,480","22,680",,,,,,,,4,planned,
+10%,/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","36,960","45,360",,,,,,,,4,planned,
+50%,/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06,18,,"rml,radcom","lp,ft2,lora","0,1,2","184,800","226,800",,,,,,,,4,planned,

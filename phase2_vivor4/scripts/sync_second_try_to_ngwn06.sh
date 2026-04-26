@@ -2,8 +2,8 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
-REMOTE="ngwn06"
-REMOTE_ROOT="/home/maheenfs/wavesfm_vivor4_m2"
+REMOTE="<lab-host>"
+REMOTE_ROOT="/home/<user>/wavesfm_vivor4_m2"
 
 DOCS=(
   "phase2_vivor4/README.md"

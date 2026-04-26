@@ -1,11 +1,11 @@
 {
   "status": "completed",
   "generated_at_utc": "2026-04-25T07:29:19.113646+00:00",
-  "official_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
-  "local_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06/local_results/summaries/local_results_aggregated.json",
-  "local_runs_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06/local_results/summaries/local_results_runs.json",
-  "output_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06/comparisons",
-  "comparison_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06/comparisons/local_vs_official.json",
+  "official_json": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
+  "local_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06/local_results/summaries/local_results_aggregated.json",
+  "local_runs_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06/local_results/summaries/local_results_runs.json",
+  "output_root": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06/comparisons",
+  "comparison_json": "/local/data0/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06/comparisons/local_vs_official.json",
   "completed_task_modes": 33,
   "total_task_modes": 33,
   "entries": [

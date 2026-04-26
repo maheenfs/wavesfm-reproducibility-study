@@ -9,16 +9,16 @@
       "task": "deepmimo-los",
       "mode": "lora",
       "seed": 2,
-      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-los/lora/s2/best.pth",
+      "checkpoint": "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/deepmimo-los/lora/s2/best.pth",
       "caption": "Local pca: 95.3229 +/- 0.2805 across 3 seed(s); plotted all_seeds | Official pca: 95.2400",
       "plots": [
         {
           "kind": "confusion_matrix",
           "paths": [
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.png",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.svg",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.npz",
-            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix_label_map.json"
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.png",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.svg",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.npz",
+            "/home/<user>/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix_label_map.json"
           ]
         }
       ]
