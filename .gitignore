@@ -19,12 +19,6 @@ venv/
 # Office lockfiles (created when a PPTX/DOCX is open)
 ~$*
 
-# Local-only working notes (intentionally not pushed to the repo)
-CLAUDE.md
-.claude/
-
-# Local-only generators and scratch docs (PPTX/figures themselves still ship).
-_local/
 
 # Large data archives — re-fetch from original sources, do not commit
 dataset_sources/
