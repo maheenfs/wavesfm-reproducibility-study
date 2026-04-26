@@ -1,0 +1,7 @@
+Task,Mode,Local Full-Data Baseline,Official Baseline
+rml,lp,50.39,50.39
+rml,ft2,55.14,55.16
+rml,lora,56.42,56.49
+radcom,lp,90.12,90.10
+radcom,ft2,94.61,94.53
+radcom,lora,94.07,93.78

@@ -1,0 +1,207 @@
+{
+  "generated_at_utc": "2026-04-15T05:44:47.606889+00:00",
+  "task": "deepmimo-los",
+  "task_name": "LOS/NLOS Classification",
+  "mode": "lora",
+  "official": {
+    "task_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/by_task/deepmimo-los.json",
+    "payload_pointer": "official_results_all.json#tasks.deepmimo-los.modes.lora",
+    "task_payload": {
+      "task_id": "deepmimo-los",
+      "task_name": "LOS/NLOS Classification",
+      "dataset_name": "DeepMIMO",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/deepmimo/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 95.66,
+          "acc3": 100.0,
+          "pca": 95.46,
+          "test_samples": 2968
+        },
+        "lora": {
+          "acc1": 95.6,
+          "acc3": 100.0,
+          "pca": 95.24,
+          "test_samples": 2968
+        },
+        "lp": {
+          "acc1": 95.35,
+          "acc3": 100.0,
+          "pca": 95.02,
+          "test_samples": 2968
+        }
+      }
+    },
+    "mode_metrics": {
+      "acc1": 95.6,
+      "acc3": 100.0,
+      "pca": 95.24,
+      "test_samples": 2968
+    }
+  },
+  "local": {
+    "aggregate": {
+      "task": "deepmimo-los",
+      "task_name": "LOS/NLOS Classification",
+      "mode": "lora",
+      "n_seeds": 3,
+      "primary_metric": "pca",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+      "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+      "best_metric.mean": 95.15918223063152,
+      "best_metric.std": 0.39337098079096505,
+      "val.acc1.mean": 95.22686433063791,
+      "val.acc1.std": 0.37552225547970636,
+      "val.acc3.mean": 100.0,
+      "val.acc3.std": 0.0,
+      "val.f1_macro.mean": 0.9495445092519125,
+      "val.f1_macro.std": 0.003944217054965412,
+      "val.loss.mean": 0.1646363598236819,
+      "val.loss.std": 0.03898854096870037,
+      "val.pca.mean": 95.15918223063152,
+      "val.pca.std": 0.39337098079096505
+    },
+    "runs": [
+      {
+        "task": "deepmimo-los",
+        "task_name": "LOS/NLOS Classification",
+        "mode": "lora",
+        "seed": 0,
+        "run_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s0",
+        "metadata_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s0/metadata.json",
+        "log_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s0/log.txt",
+        "best_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s0/best.pth",
+        "latest_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s0/checkpoint_099.pth",
+        "status": "ok",
+        "best_entry_source": "log",
+        "best_epoch": 39,
+        "best_key": "pca",
+        "best_metric": 95.00364685058594,
+        "primary_metric": "pca",
+        "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "launch_host": "ngwn06",
+        "initial_launch_host": "ngwn06",
+        "launch_history": [
+          "ngwn06"
+        ],
+        "run_origin": "fresh",
+        "resume_checkpoint": null,
+        "val.loss": 0.2057963355050254,
+        "val.acc1": 94.91239883957526,
+        "val.acc3": 100.0,
+        "val.pca": 95.00364685058594,
+        "val.per_class_acc": [
+          95.38188171386719,
+          94.62540435791016
+        ],
+        "val.f1_macro": 0.9464007616043091,
+        "train.loss": 0.03412789897993207,
+        "train.acc1": 98.79415760869566
+      },
+      {
+        "task": "deepmimo-los",
+        "task_name": "LOS/NLOS Classification",
+        "mode": "lora",
+        "seed": 1,
+        "run_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s1",
+        "metadata_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s1/metadata.json",
+        "log_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s1/log.txt",
+        "best_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s1/best.pth",
+        "latest_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s1/checkpoint_099.pth",
+        "status": "ok",
+        "best_entry_source": "log",
+        "best_epoch": 31,
+        "best_key": "pca",
+        "best_metric": 94.77438354492188,
+        "primary_metric": "pca",
+        "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "launch_host": "ngwn06",
+        "initial_launch_host": "ngwn06",
+        "launch_history": [
+          "ngwn06"
+        ],
+        "run_origin": "fresh",
+        "resume_checkpoint": null,
+        "val.loss": 0.17582981674015682,
+        "val.acc1": 95.01347727402843,
+        "val.acc3": 100.0,
+        "val.pca": 94.77438354492188,
+        "val.per_class_acc": [
+          93.7833023071289,
+          95.76547241210938
+        ],
+        "val.f1_macro": 0.947126030921936,
+        "train.loss": 0.053551626978846995,
+        "train.acc1": 98.02139945652173
+      },
+      {
+        "task": "deepmimo-los",
+        "task_name": "LOS/NLOS Classification",
+        "mode": "lora",
+        "seed": 2,
+        "run_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s2",
+        "metadata_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s2/metadata.json",
+        "log_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s2/log.txt",
+        "best_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s2/best.pth",
+        "latest_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s2/checkpoint_099.pth",
+        "status": "ok",
+        "best_entry_source": "log",
+        "best_epoch": 16,
+        "best_key": "pca",
+        "best_metric": 95.69951629638672,
+        "primary_metric": "pca",
+        "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "launch_host": "ngwn06",
+        "initial_launch_host": "ngwn06",
+        "launch_history": [
+          "ngwn06"
+        ],
+        "run_origin": "fresh",
+        "resume_checkpoint": null,
+        "val.loss": 0.11228292722586351,
+        "val.acc1": 95.75471687831005,
+        "val.acc3": 100.0,
+        "val.pca": 95.69951629638672,
+        "val.per_class_acc": [
+          95.47068786621094,
+          95.9283447265625
+        ],
+        "val.f1_macro": 0.9551067352294922,
+        "train.loss": 0.09119115429727928,
+        "train.acc1": 96.17866847826087
+      }
+    ],
+    "summary_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "runs_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_runs.json"
+  },
+  "comparison": {
+    "task": "deepmimo-los",
+    "task_name": "LOS/NLOS Classification",
+    "mode": "lora",
+    "primary_metric": "pca",
+    "official_split": "20% split",
+    "official_source_url": "https://waveslab.ai/detailed-eval/",
+    "official_source_updated": "2026-01-23",
+    "official_task_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/by_task/deepmimo-los.json",
+    "official_payload_pointer": "official_results_all.json#tasks.deepmimo-los.modes.lora",
+    "local_summary_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "local_runs_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_runs.json",
+    "bundle_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/deepmimo-los/lora.json",
+    "official_primary": 95.24,
+    "local_primary_mean": 95.15918223063152,
+    "local_primary_std": 0.39337098079096505,
+    "delta_local_minus_official": -0.08081776936847973,
+    "status": "ok",
+    "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+    "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+    "local_run_count": 3
+  }
+}

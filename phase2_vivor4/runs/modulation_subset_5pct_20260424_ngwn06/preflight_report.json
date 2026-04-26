@@ -1,0 +1,184 @@
+{
+  "generated_at_utc": "2026-04-25T01:06:40.719345+00:00",
+  "status": "ok",
+  "summary": "0 error(s), 0 warning(s)",
+  "host": "ngwn06",
+  "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06",
+  "paths": {
+    "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06",
+    "imports_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/imports",
+    "results_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/local_results/by_task",
+    "summary_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/local_results/summaries",
+    "comparison_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/comparisons",
+    "plots_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/plots",
+    "detailed_plots_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/plots/detailed_eval",
+    "plot_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/plots/plot_manifest.json",
+    "summary_runs_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/local_results/summaries/local_results_runs.json",
+    "summary_agg_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/local_results/summaries/local_results_aggregated.json",
+    "summary_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/local_results/summaries/summary_manifest.json",
+    "comparison_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/comparisons/local_vs_official.json",
+    "comparison_manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/comparisons/comparison_manifest.json",
+    "manifest_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/session_manifest.json",
+    "preflight_report_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/preflight_report.json"
+  },
+  "plan": {
+    "tasks": [
+      "rml",
+      "radcom"
+    ],
+    "modes": [
+      "lp",
+      "ft2",
+      "lora"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "num_workers": 4,
+    "requested_tasks": [
+      "rml",
+      "radcom"
+    ],
+    "runnable_tasks": [
+      "rml",
+      "radcom"
+    ],
+    "blocked_tasks": {}
+  },
+  "checks": [
+    {
+      "name": "import:numpy",
+      "status": "ok",
+      "detail": "imported",
+      "extra": {
+        "version": "2.3.3"
+      }
+    },
+    {
+      "name": "import:matplotlib",
+      "status": "ok",
+      "detail": "imported",
+      "extra": {
+        "version": "3.10.7"
+      }
+    },
+    {
+      "name": "import:torch",
+      "status": "ok",
+      "detail": "imported",
+      "extra": {
+        "version": "2.9.1+cu128"
+      }
+    },
+    {
+      "name": "import:h5py",
+      "status": "ok",
+      "detail": "imported",
+      "extra": {
+        "version": "3.15.1"
+      }
+    },
+    {
+      "name": "runtime-device",
+      "status": "ok",
+      "detail": "preferred device is cuda"
+    },
+    {
+      "name": "runtime-workers",
+      "status": "ok",
+      "detail": "worker smoke test passed for num_workers=4",
+      "extra": {
+        "num_workers": 4
+      }
+    },
+    {
+      "name": "checkpoint",
+      "status": "ok",
+      "detail": "pretrained checkpoint present",
+      "extra": {
+        "path": "/home/maheenfs/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
+        "exists": true,
+        "size_bytes": 29817867,
+        "updated_at_utc": "2026-03-19T19:29:00+00:00"
+      }
+    },
+    {
+      "name": "cache:radcom",
+      "status": "ok",
+      "detail": "ready",
+      "extra": {
+        "tasks": [
+          "radcom"
+        ],
+        "cache": {
+          "path": "/local/data0/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
+          "exists": true,
+          "size_bytes": 636789408,
+          "updated_at_utc": "2026-03-31T06:17:27.340304+00:00"
+        },
+        "raw": {
+          "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/radcom/radcom_source.h5",
+          "exists": false
+        },
+        "cache_name": "radcom.h5"
+      }
+    },
+    {
+      "name": "cache:rml",
+      "status": "ok",
+      "detail": "ready",
+      "extra": {
+        "tasks": [
+          "rml"
+        ],
+        "cache": {
+          "path": "/local/data0/maheenfs/wavesfm_vivor4_m2/datasets_h5/rml22.h5",
+          "exists": true,
+          "size_bytes": 497186992,
+          "updated_at_utc": "2026-03-31T03:52:24.199816+00:00"
+        },
+        "raw": {
+          "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/rml22/RML22.01A",
+          "exists": false
+        },
+        "cache_name": "rml22.h5"
+      }
+    },
+    {
+      "name": "writable:session_root",
+      "status": "ok",
+      "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06"
+    },
+    {
+      "name": "writable:results_root",
+      "status": "ok",
+      "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/local_results/by_task"
+    },
+    {
+      "name": "writable:summary_root",
+      "status": "ok",
+      "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/local_results/summaries"
+    },
+    {
+      "name": "writable:plots_root",
+      "status": "ok",
+      "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/plots"
+    },
+    {
+      "name": "writable:comparison_root",
+      "status": "ok",
+      "detail": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06/comparisons"
+    },
+    {
+      "name": "session-cleanliness",
+      "status": "ok",
+      "detail": "session output tree is empty",
+      "extra": {
+        "existing_runs": [],
+        "count": 0
+      }
+    }
+  ]
+}

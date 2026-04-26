@@ -1,0 +1,190 @@
+{
+  "generated_at_utc": "2026-04-15T05:44:47.607964+00:00",
+  "task": "sensing",
+  "task_name": "Human Activity Sensing",
+  "mode": "ft2",
+  "official": {
+    "task_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/by_task/sensing.json",
+    "payload_pointer": "official_results_all.json#tasks.sensing.modes.ft2",
+    "task_payload": {
+      "task_id": "sensing",
+      "task_name": "Human Activity Sensing",
+      "dataset_name": "EfficientFi (HAS)",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/has/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 99.31,
+          "acc3": 100.0,
+          "pca": 99.31,
+          "test_samples": 240
+        },
+        "lora": {
+          "acc1": 98.47,
+          "acc3": 100.0,
+          "pca": 98.47,
+          "test_samples": 240
+        },
+        "lp": {
+          "acc1": 94.44,
+          "acc3": 100.0,
+          "pca": 94.42,
+          "test_samples": 240
+        }
+      }
+    },
+    "mode_metrics": {
+      "acc1": 99.31,
+      "acc3": 100.0,
+      "pca": 99.31,
+      "test_samples": 240
+    }
+  },
+  "local": {
+    "aggregate": {
+      "task": "sensing",
+      "task_name": "Human Activity Sensing",
+      "mode": "ft2",
+      "n_seeds": 3,
+      "primary_metric": "pca",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+      "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+      "best_metric.mean": 98.47222391764323,
+      "best_metric.std": 0.8561695741413852,
+      "val.acc1.mean": 98.47222646077473,
+      "val.acc1.std": 0.8561666862894256,
+      "val.acc3.mean": 100.00000762939453,
+      "val.acc3.std": 0.0,
+      "val.loss.mean": 0.4581100145975749,
+      "val.loss.std": 0.010244500749862887,
+      "val.pca.mean": 98.47222391764323,
+      "val.pca.std": 0.8561695741413852
+    },
+    "runs": [
+      {
+        "task": "sensing",
+        "task_name": "Human Activity Sensing",
+        "mode": "ft2",
+        "seed": 0,
+        "run_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s0",
+        "metadata_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s0/metadata.json",
+        "log_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s0/log.txt",
+        "best_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s0/best.pth",
+        "latest_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s0/checkpoint_099.pth",
+        "status": "ok",
+        "best_entry_source": "log",
+        "best_epoch": 35,
+        "best_key": "pca",
+        "best_metric": 99.58333587646484,
+        "primary_metric": "pca",
+        "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "launch_host": "ngwn06",
+        "initial_launch_host": "ngwn06",
+        "launch_history": [
+          "ngwn06"
+        ],
+        "run_origin": "fresh",
+        "resume_checkpoint": null,
+        "val.loss": 0.4456549286842346,
+        "val.acc1": 99.58333587646484,
+        "val.acc3": 100.00000762939453,
+        "val.pca": 99.58333587646484,
+        "train.loss": 0.4250559111436208,
+        "train.acc1": 100.0
+      },
+      {
+        "task": "sensing",
+        "task_name": "Human Activity Sensing",
+        "mode": "ft2",
+        "seed": 1,
+        "run_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s1",
+        "metadata_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s1/metadata.json",
+        "log_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s1/log.txt",
+        "best_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s1/best.pth",
+        "latest_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s1/checkpoint_099.pth",
+        "status": "ok",
+        "best_entry_source": "log",
+        "best_epoch": 22,
+        "best_key": "pca",
+        "best_metric": 97.5,
+        "primary_metric": "pca",
+        "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "launch_host": "ngwn06",
+        "initial_launch_host": "ngwn06",
+        "launch_history": [
+          "ngwn06"
+        ],
+        "run_origin": "fresh",
+        "resume_checkpoint": null,
+        "val.loss": 0.4707467555999756,
+        "val.acc1": 97.50000762939453,
+        "val.acc3": 100.00000762939453,
+        "val.pca": 97.5,
+        "train.loss": 0.4414478937784831,
+        "train.acc1": 99.47916666666667
+      },
+      {
+        "task": "sensing",
+        "task_name": "Human Activity Sensing",
+        "mode": "ft2",
+        "seed": 2,
+        "run_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s2",
+        "metadata_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s2/metadata.json",
+        "log_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s2/log.txt",
+        "best_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s2/best.pth",
+        "latest_checkpoint_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s2/checkpoint_099.pth",
+        "status": "ok",
+        "best_entry_source": "log",
+        "best_epoch": 26,
+        "best_key": "pca",
+        "best_metric": 98.33333587646484,
+        "primary_metric": "pca",
+        "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+        "launch_host": "ngwn06",
+        "initial_launch_host": "ngwn06",
+        "launch_history": [
+          "ngwn06"
+        ],
+        "run_origin": "fresh",
+        "resume_checkpoint": null,
+        "val.loss": 0.4579283595085144,
+        "val.acc1": 98.33333587646484,
+        "val.acc3": 100.00000762939453,
+        "val.pca": 98.33333587646484,
+        "train.loss": 0.4311278462409973,
+        "train.acc1": 100.0
+      }
+    ],
+    "summary_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "runs_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_runs.json"
+  },
+  "comparison": {
+    "task": "sensing",
+    "task_name": "Human Activity Sensing",
+    "mode": "ft2",
+    "primary_metric": "pca",
+    "official_split": "20% split",
+    "official_source_url": "https://waveslab.ai/detailed-eval/",
+    "official_source_updated": "2026-01-23",
+    "official_task_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/by_task/sensing.json",
+    "official_payload_pointer": "official_results_all.json#tasks.sensing.modes.ft2",
+    "local_summary_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "local_runs_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_runs.json",
+    "bundle_json_path": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/sensing/ft2.json",
+    "official_primary": 99.31,
+    "local_primary_mean": 98.47222391764323,
+    "local_primary_std": 0.8561695741413852,
+    "delta_local_minus_official": -0.8377760823567684,
+    "status": "ok",
+    "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06",
+    "session_name": "second_try_sensing_deepmimo_20260415_005633-ngwn06",
+    "local_run_count": 3
+  }
+}

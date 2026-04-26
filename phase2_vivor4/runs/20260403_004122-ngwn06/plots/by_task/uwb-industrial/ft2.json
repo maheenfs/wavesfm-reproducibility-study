@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-04-03T21:37:22.928221+00:00",
+  "task": "uwb-industrial",
+  "mode": "ft2",
+  "selection": "best-per-mode",
+  "device": "cpu",
+  "rows": [
+    {
+      "task": "uwb-industrial",
+      "mode": "ft2",
+      "seed": 0,
+      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/uwb-industrial/ft2/s0/best.pth",
+      "caption": "Local mean_error: 0.8767 +/- 0.0105 across 3 seed(s); plotted all_seeds | Official mean_error: 0.8800",
+      "plots": [
+        {
+          "kind": "position_error_density",
+          "paths": [
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/ft2/all_seeds_position_error_density.png",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/ft2/all_seeds_position_error_density.svg",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/uwb-industrial/ft2/all_seeds_position_error_density.npz"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "task_id": "rfp",
+  "task_name": "RF Fingerprinting",
+  "dataset_name": "POWDER (RFP)",
+  "task_type": "classification",
+  "primary_metric": "pca",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/rfp/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "acc1": 99.7,
+      "acc3": 100.0,
+      "pca": 99.7,
+      "test_samples": 208894
+    },
+    "lora": {
+      "acc1": 99.82,
+      "acc3": 100.0,
+      "pca": 99.82,
+      "test_samples": 208894
+    },
+    "lp": {
+      "acc1": 98.96,
+      "acc3": 100.0,
+      "pca": 98.97,
+      "test_samples": 208894
+    }
+  }
+}

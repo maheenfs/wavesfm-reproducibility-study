@@ -1,0 +1,168 @@
+{
+  "selection": "best-per-mode",
+  "device": "cpu",
+  "generated": [
+    {
+      "task": "deepmimo-beam",
+      "mode": "ft2",
+      "seed": 1,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-beam/ft2/s1/best.pth",
+      "caption": "Local pca: 69.4361 +/- 0.1473 across 3 seed(s); plotted all_seeds | Official pca: 78.3800",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/ft2/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "deepmimo-beam",
+      "mode": "lora",
+      "seed": 1,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-beam/lora/s1/best.pth",
+      "caption": "Local pca: 67.8391 +/- 0.4185 across 3 seed(s); plotted all_seeds | Official pca: 77.3800",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/lora/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "deepmimo-beam",
+      "mode": "lp",
+      "seed": 1,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-beam/lp/s1/best.pth",
+      "caption": "Local pca: 56.3747 +/- 0.6402 across 3 seed(s); plotted all_seeds | Official pca: 67.6700",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-beam/lp/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "deepmimo-los",
+      "mode": "ft2",
+      "seed": 2,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/ft2/s2/best.pth",
+      "caption": "Local pca: 95.3632 +/- 0.3904 across 3 seed(s); plotted all_seeds | Official pca: 95.4600",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/ft2/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "deepmimo-los",
+      "mode": "lora",
+      "seed": 2,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lora/s2/best.pth",
+      "caption": "Local pca: 95.1592 +/- 0.3934 across 3 seed(s); plotted all_seeds | Official pca: 95.2400",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/lora/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "deepmimo-los",
+      "mode": "lp",
+      "seed": 2,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/deepmimo-los/lp/s2/best.pth",
+      "caption": "Local pca: 95.1174 +/- 0.6099 across 3 seed(s); plotted all_seeds | Official pca: 95.0200",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/deepmimo-los/lp/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "sensing",
+      "mode": "ft2",
+      "seed": 0,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/ft2/s0/best.pth",
+      "caption": "Local pca: 98.4722 +/- 0.8562 across 3 seed(s); plotted all_seeds | Official pca: 99.3100",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/ft2/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "sensing",
+      "mode": "lora",
+      "seed": 1,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/lora/s1/best.pth",
+      "caption": "Local pca: 99.3056 +/- 0.7082 across 3 seed(s); plotted all_seeds | Official pca: 98.4700",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/lora/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "sensing",
+      "mode": "lp",
+      "seed": 0,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/by_task/sensing/lp/s0/best.pth",
+      "caption": "Local pca: 93.8889 +/- 1.9934 across 3 seed(s); plotted all_seeds | Official pca: 94.4200",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/plots/sensing/lp/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

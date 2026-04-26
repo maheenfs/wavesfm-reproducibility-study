@@ -1,0 +1,37 @@
+delta_local_minus_official,local_primary_mean,local_primary_std,mode,official_primary,official_reference_task,official_source_updated,official_source_url,official_split,primary_metric,status,task,task_name
+,,,ft2,78.38,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,deepmimo-beam,Beam Prediction
+,,,lora,77.38,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,deepmimo-beam,Beam Prediction
+,,,lp,67.67,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,deepmimo-beam,Beam Prediction
+,,,ft2,95.46,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,deepmimo-los,LOS/NLOS Classification
+,,,lora,95.24,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,deepmimo-los,LOS/NLOS Classification
+,,,lp,95.02,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,deepmimo-los,LOS/NLOS Classification
+,,,ft2,78.94,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,interf,Interference Classification
+,,,lora,78.94,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,interf,Interference Classification
+,,,lp,71.5,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,interf,Interference Classification
+,,,ft2,1.24,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,mean_error,missing_local_result,pos,5G NR Positioning
+,,,lora,1.45,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,mean_error,missing_local_result,pos,5G NR Positioning
+,,,lp,3.17,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,mean_error,missing_local_result,pos,5G NR Positioning
+,,,ft2,94.53,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,radcom,RADCOM Signal Classification
+,,,lora,93.78,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,radcom,RADCOM Signal Classification
+,,,lp,90.1,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,radcom,RADCOM Signal Classification
+,,,ft2,99.7,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,rfp,RF Fingerprinting
+,,,lora,99.82,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,rfp,RF Fingerprinting
+,,,lp,98.97,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,rfp,RF Fingerprinting
+,,,ft2,83.41,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,rfs,RF Signal Classification
+,,,lora,84.49,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,rfs,RF Signal Classification
+,,,lp,42.85,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,rfs,RF Signal Classification
+,,,ft2,55.16,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,rml,Modulation Classification
+,,,lora,56.49,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,rml,Modulation Classification
+,,,lp,50.39,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,rml,Modulation Classification
+,,,ft2,99.31,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,sensing,Human Activity Sensing
+,,,lora,98.47,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,sensing,Human Activity Sensing
+,,,lp,94.42,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,missing_local_result,sensing,Human Activity Sensing
+,,,ft2,0.83,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,mean_error,missing_local_result,uwb-indoor,UWB Indoor Positioning
+,,,lora,0.65,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,mean_error,missing_local_result,uwb-indoor,UWB Indoor Positioning
+,,,lp,1.43,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,mean_error,missing_local_result,uwb-indoor,UWB Indoor Positioning
+,,,ft2,0.88,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,mean_error,missing_local_result,uwb-industrial,UWB Industrial Localization
+,,,lora,0.74,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,mean_error,missing_local_result,uwb-industrial,UWB Industrial Localization
+,,,lp,2.71,,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,mean_error,missing_local_result,uwb-industrial,UWB Industrial Localization
+-76.69597220897674,1.6840277910232544,0.06495933671150751,ft2,78.38,deepmimo-beam,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,hypothesis_reference,lwm-beam-challenge,Beam Prediction
+-75.68729166666667,1.6927083333333333,0.18414239093399676,lora,77.38,deepmimo-beam,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,hypothesis_reference,lwm-beam-challenge,Beam Prediction
+-65.79499992052715,1.8750000794728596,0.37073194329761033,lp,67.67,deepmimo-beam,2026-01-23,https://waveslab.ai/detailed-eval/,20% split,pca,hypothesis_reference,lwm-beam-challenge,Beam Prediction

@@ -1,0 +1,31 @@
+{
+  "task_id": "deepmimo-los",
+  "task_name": "LOS/NLOS Classification",
+  "dataset_name": "DeepMIMO",
+  "task_type": "classification",
+  "primary_metric": "pca",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/deepmimo/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "acc1": 95.66,
+      "acc3": 100.0,
+      "pca": 95.46,
+      "test_samples": 2968
+    },
+    "lora": {
+      "acc1": 95.6,
+      "acc3": 100.0,
+      "pca": 95.24,
+      "test_samples": 2968
+    },
+    "lp": {
+      "acc1": 95.35,
+      "acc3": 100.0,
+      "pca": 95.02,
+      "test_samples": 2968
+    }
+  }
+}

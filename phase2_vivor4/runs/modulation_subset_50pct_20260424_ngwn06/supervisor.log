@@ -1,0 +1,4 @@
+[2026-04-25T07:29:26.179972+00:00] Supervisor start label=modulation_subset_50pct_20260424_ngwn06
+[2026-04-25T07:29:26.180020+00:00] Tracker command: /home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python /home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06 --tasks rml radcom --modes lp ft2 lora --seeds 0 1 2 --num-workers 4 --save-every 5 --train-subset-fraction 0.5
+[2026-04-25T07:29:26.180042+00:00] Launch attempt 1
+[2026-04-25T14:12:28.064706+00:00] Tracker completed successfully

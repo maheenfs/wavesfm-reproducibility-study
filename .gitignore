@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Office lockfiles (created when a PPTX/DOCX is open)
+~$*
+
+# Local-only working notes (intentionally not pushed to the repo)
+CLAUDE.md
+.claude/
+
+# Local-only generators and scratch docs (PPTX/figures themselves still ship).
+_local/
+
+# Large data archives — re-fetch from original sources, do not commit
+dataset_sources/
+
+# Large preprocessed caches (regenerate from datasets_raw via wavesfm/preprocessing/)
+datasets_h5/
+
+# Raw datasets (download per notes/02_environment_setup.md or notes/04_reproduction_log.md)
+datasets_raw/
+
+# Pretrained checkpoints (download from the WavesFM release)
+checkpoints/
+
+# Run logs / per-task outputs are preserved under phase2_vivor4/runs/.
+# Comment the next two lines OUT if a session's heavy artifacts (per-epoch
+# log.txt, large checkpoint blobs) should travel with the repo.
+phase2_vivor4/runs/**/*.pth
+phase2_vivor4/automation_logs/
+phase2_vivor4/remote_sync/
+
+# LaTeX intermediates
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz

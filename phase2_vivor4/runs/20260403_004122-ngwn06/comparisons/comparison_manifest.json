@@ -1,0 +1,255 @@
+{
+  "generated_at_utc": "2026-04-03T21:37:25.820669+00:00",
+  "official_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
+  "local_summary_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_aggregated.json",
+  "local_runs_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_runs.json",
+  "comparison_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/local_vs_official.json",
+  "by_task_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task",
+  "status": "completed",
+  "total_task_modes": 30,
+  "completed_task_modes": 30,
+  "current_task": null,
+  "current_mode": null,
+  "entries": [
+    {
+      "task": "deepmimo-beam",
+      "mode": "ft2",
+      "task_name": "Beam Prediction",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/deepmimo-beam/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "deepmimo-beam",
+      "mode": "lora",
+      "task_name": "Beam Prediction",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/deepmimo-beam/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "deepmimo-beam",
+      "mode": "lp",
+      "task_name": "Beam Prediction",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/deepmimo-beam/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "deepmimo-los",
+      "mode": "ft2",
+      "task_name": "LOS/NLOS Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/deepmimo-los/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "deepmimo-los",
+      "mode": "lora",
+      "task_name": "LOS/NLOS Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/deepmimo-los/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "deepmimo-los",
+      "mode": "lp",
+      "task_name": "LOS/NLOS Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/deepmimo-los/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "interf",
+      "mode": "ft2",
+      "task_name": "Interference Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/interf/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "interf",
+      "mode": "lora",
+      "task_name": "Interference Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/interf/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "interf",
+      "mode": "lp",
+      "task_name": "Interference Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/interf/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "pos",
+      "mode": "ft2",
+      "task_name": "5G NR Positioning",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/pos/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "pos",
+      "mode": "lora",
+      "task_name": "5G NR Positioning",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/pos/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "pos",
+      "mode": "lp",
+      "task_name": "5G NR Positioning",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/pos/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "radcom",
+      "mode": "ft2",
+      "task_name": "RADCOM Signal Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/radcom/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "radcom",
+      "mode": "lora",
+      "task_name": "RADCOM Signal Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/radcom/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "radcom",
+      "mode": "lp",
+      "task_name": "RADCOM Signal Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/radcom/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "rfp",
+      "mode": "ft2",
+      "task_name": "RF Fingerprinting",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/rfp/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "rfp",
+      "mode": "lora",
+      "task_name": "RF Fingerprinting",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/rfp/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "rfp",
+      "mode": "lp",
+      "task_name": "RF Fingerprinting",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/rfp/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "rml",
+      "mode": "ft2",
+      "task_name": "Modulation Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/rml/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "rml",
+      "mode": "lora",
+      "task_name": "Modulation Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/rml/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "rml",
+      "mode": "lp",
+      "task_name": "Modulation Classification",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/rml/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "sensing",
+      "mode": "ft2",
+      "task_name": "Human Activity Sensing",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/sensing/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "sensing",
+      "mode": "lora",
+      "task_name": "Human Activity Sensing",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/sensing/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "sensing",
+      "mode": "lp",
+      "task_name": "Human Activity Sensing",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/sensing/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "uwb-indoor",
+      "mode": "ft2",
+      "task_name": "UWB Indoor Positioning",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/uwb-indoor/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "uwb-indoor",
+      "mode": "lora",
+      "task_name": "UWB Indoor Positioning",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/uwb-indoor/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "uwb-indoor",
+      "mode": "lp",
+      "task_name": "UWB Indoor Positioning",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/uwb-indoor/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "uwb-industrial",
+      "mode": "ft2",
+      "task_name": "UWB Industrial Localization",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/uwb-industrial/ft2.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "uwb-industrial",
+      "mode": "lora",
+      "task_name": "UWB Industrial Localization",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/uwb-industrial/lora.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    },
+    {
+      "task": "uwb-industrial",
+      "mode": "lp",
+      "task_name": "UWB Industrial Localization",
+      "bundle_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/uwb-industrial/lp.json",
+      "status": "ok",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "generated_at_utc": "2026-04-15T18:17:55.206083+00:00",
+  "results_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/by_task",
+  "summary_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries",
+  "runs_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_runs.json",
+  "aggregated_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/local_results_aggregated.json",
+  "by_task_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/by_task",
+  "status": "completed",
+  "total_task_modes": 3,
+  "completed_task_modes": 3,
+  "current_task": null,
+  "current_mode": null,
+  "entries": [
+    {
+      "task": "lwm-beam-challenge",
+      "mode": "ft2",
+      "task_name": "Beam Prediction",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/by_task/lwm-beam-challenge/ft2.json",
+      "n_seeds": 3,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "session_root": null
+    },
+    {
+      "task": "lwm-beam-challenge",
+      "mode": "lora",
+      "task_name": "Beam Prediction",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/by_task/lwm-beam-challenge/lora.json",
+      "n_seeds": 3,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "session_root": null
+    },
+    {
+      "task": "lwm-beam-challenge",
+      "mode": "lp",
+      "task_name": "Beam Prediction",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/third_try_lwm_beam_challenge_20260415_140720-ngwn06/local_results/summaries/by_task/lwm-beam-challenge/lp.json",
+      "n_seeds": 3,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "session_root": null
+    }
+  ]
+}

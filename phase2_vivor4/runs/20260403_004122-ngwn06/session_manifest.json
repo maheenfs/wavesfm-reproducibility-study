@@ -1,0 +1,455 @@
+{
+  "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+  "generated_at_utc": "2026-04-03T21:37:25.979090+00:00",
+  "host": "ngwn06",
+  "python_executable": "/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python3",
+  "python_version": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "tracker_command": [
+    "python3",
+    "phase2_vivor4/scripts/wait_for_radcom_and_run_next.py",
+    "--session-root",
+    "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+    "--tasks",
+    "sensing",
+    "pos",
+    "uwb-indoor",
+    "uwb-industrial",
+    "radcom",
+    "rml",
+    "rfp",
+    "interf",
+    "deepmimo-los",
+    "deepmimo-beam",
+    "--modes",
+    "lp",
+    "ft2",
+    "lora",
+    "--seeds",
+    "0",
+    "1",
+    "2",
+    "--radcom-cache",
+    "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
+    "--num-workers",
+    "4",
+    "--save-every",
+    "5"
+  ],
+  "tracker_command_shell": "python3 phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06 --tasks sensing pos uwb-indoor uwb-industrial radcom rml rfp interf deepmimo-los deepmimo-beam --modes lp ft2 lora --seeds 0 1 2 --radcom-cache /home/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5 --num-workers 4 --save-every 5",
+  "paths": {
+    "status_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_status.json",
+    "dashboard_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/dashboard.html",
+    "run_log_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/automation_logs/after_radcom_run.log",
+    "results_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task",
+    "plots_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/plot_manifest.json",
+    "summary_runs_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_runs.json",
+    "summary_agg_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "summary_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/summary_manifest.json",
+    "comparison_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/local_vs_official.json",
+    "comparison_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/comparison_manifest.json",
+    "official_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
+    "checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
+    "cache_root": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5"
+  },
+  "plan": {
+    "tasks": [
+      "sensing",
+      "pos",
+      "uwb-indoor",
+      "uwb-industrial",
+      "radcom",
+      "rml",
+      "rfp",
+      "interf",
+      "deepmimo-los",
+      "deepmimo-beam"
+    ],
+    "modes": [
+      "lp",
+      "ft2",
+      "lora"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "runtime_hardware": {
+    "label": "CUDA",
+    "detail": "NVIDIA GeForce RTX 5090",
+    "badge": "done",
+    "cpu_count": 24,
+    "machine": "x86_64",
+    "python": "3.12.3",
+    "torch": "2.9.1+cu128"
+  },
+  "system_snapshot": {
+    "captured_at_ts": 1775252245.9791303,
+    "load1": 18.416015625,
+    "load5": 17.83740234375,
+    "load15": 15.5654296875,
+    "load1_pct": 76.7333984375,
+    "load5_pct": 74.322509765625,
+    "load15_pct": 64.85595703125,
+    "power_source": "unknown",
+    "battery_percent": null,
+    "battery_state": null,
+    "tracker_pid": 44664,
+    "trainer_pid": null,
+    "trainer_cpu": null,
+    "trainer_mem": null,
+    "trainer_etime": null,
+    "memory_total_gb": 62.25322341918945,
+    "memory_free_gb": 30.726192474365234,
+    "memory_available_gb": 57.18451690673828,
+    "memory_compressed_gb": null,
+    "workspace_disk_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task",
+    "workspace_disk_total_gb": 430.4830627441406,
+    "workspace_disk_free_gb": 13.871685028076172,
+    "workspace_disk_used_pct": 91.68165046548404,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "gpu_util": 0.0,
+    "gpu_mem_used_mb": 91.0,
+    "gpu_mem_total_mb": 32607.0,
+    "gpu_temp_c": 39.0,
+    "pressure_note": "Linux memory headroom looks acceptable."
+  },
+  "git": {
+    "head": "50f37d5111dfffd76b660347192c15549ba8f21a",
+    "branch": "main",
+    "status_short": "D README.md\n D __init__.py\n D cleanup_checkpoints.py\n D data.py\n D dataset_classes/__init__.py\n D dataset_classes/base.py\n D dataset_classes/cir_loc.py\n D dataset_classes/deepmimo.py\n D dataset_classes/icarus.py\n D dataset_classes/powder.py\n D dataset_classes/radcom_ota.py\n D dataset_classes/rml.py\n D engine.py\n D hub.py\n D lora.py\n D main_finetune.py\n D models_vit.py\n D pos_embed.py\n D preprocessing/preprocess_csi_sensing.py\n D preprocessing/preprocess_deepmimo.py\n D preprocessing/preprocess_icarus.py\n D preprocessing/preprocess_ipin_loc.py\n D preprocessing/preprocess_nr_positioning.py\n M preprocessing/preprocess_radcom.py\n D preprocessing/preprocess_rfp.py\n D preprocessing/preprocess_rfs.py\n D preprocessing/preprocess_rml.py\n D preprocessing/preprocess_uwb_loc.py\n D requirements.txt\n D utils.py\n D wavesfm.png\n D wavesfm_demo.ipynb\n?? LOCAL_RUNTIME_ADDITIONS.md\n?? REPORTABLE_PROJECT_CODE_CHANGES.md\n?? _transfer_quarantine/\n?? prepare_clean_launch_root.py"
+  },
+  "nvidia_smi": "Fri Apr  3 17:37:26 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 575.64.03              Driver Version: 575.64.03      CUDA Version: 12.9     |\n|-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5090        Off |   00000000:02:00.0 Off |                  N/A |\n|  0%   39C    P8             14W /  575W |      91MiB /  32607MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n                                                                                         \n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            7765      G   /usr/lib/xorg/Xorg                       43MiB |\n|    0   N/A  N/A            7886      G   /usr/bin/gnome-shell                     16MiB |\n+-----------------------------------------------------------------------------------------+",
+  "preflight": {
+    "generated_at_utc": "2026-04-03T05:56:08.157624+00:00",
+    "status": "ok",
+    "summary": "0 error(s), 0 warning(s)",
+    "host": "ngwn06",
+    "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+    "paths": {
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+      "imports_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/imports",
+      "results_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task",
+      "summary_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries",
+      "plots_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots",
+      "detailed_plots_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/detailed_eval",
+      "plot_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/plot_manifest.json",
+      "comparison_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons",
+      "comparison_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/local_vs_official.json",
+      "comparison_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/comparison_manifest.json",
+      "summary_runs_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_runs.json",
+      "summary_agg_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_aggregated.json",
+      "summary_manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/summary_manifest.json",
+      "manifest_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/session_manifest.json",
+      "preflight_report_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/preflight_report.json"
+    },
+    "plan": {
+      "tasks": [
+        "sensing",
+        "pos",
+        "uwb-indoor",
+        "uwb-industrial",
+        "radcom",
+        "rml",
+        "rfp",
+        "interf",
+        "deepmimo-los",
+        "deepmimo-beam"
+      ],
+      "modes": [
+        "lp",
+        "ft2",
+        "lora"
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "num_workers": 4
+    },
+    "checks": [
+      {
+        "name": "import:numpy",
+        "status": "ok",
+        "detail": "imported",
+        "extra": {
+          "version": "2.3.3"
+        }
+      },
+      {
+        "name": "import:matplotlib",
+        "status": "ok",
+        "detail": "imported",
+        "extra": {
+          "version": "3.10.7"
+        }
+      },
+      {
+        "name": "import:torch",
+        "status": "ok",
+        "detail": "imported",
+        "extra": {
+          "version": "2.9.1+cu128"
+        }
+      },
+      {
+        "name": "import:h5py",
+        "status": "ok",
+        "detail": "imported",
+        "extra": {
+          "version": "3.15.1"
+        }
+      },
+      {
+        "name": "runtime-device",
+        "status": "ok",
+        "detail": "preferred device is cuda"
+      },
+      {
+        "name": "runtime-workers",
+        "status": "ok",
+        "detail": "worker smoke test passed for num_workers=4",
+        "extra": {
+          "num_workers": 4
+        }
+      },
+      {
+        "name": "checkpoint",
+        "status": "ok",
+        "detail": "pretrained checkpoint present",
+        "extra": {
+          "path": "/home/maheenfs/wavesfm_vivor4_m2/checkpoints/wavesfm-v1p0.pth",
+          "exists": true,
+          "size_bytes": 29817867,
+          "updated_at_utc": "2026-03-19T19:29:00+00:00"
+        }
+      },
+      {
+        "name": "cache:deepmimo",
+        "status": "ok",
+        "detail": "ready",
+        "extra": {
+          "tasks": [
+            "deepmimo-los",
+            "deepmimo-beam"
+          ],
+          "cache": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/deepmimo.h5",
+            "exists": true,
+            "size_bytes": 127001032,
+            "updated_at_utc": "2026-03-31T03:56:50.792819+00:00"
+          },
+          "raw": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/deepmimo",
+            "exists": false
+          },
+          "cache_name": "deepmimo.h5"
+        }
+      },
+      {
+        "name": "cache:has",
+        "status": "ok",
+        "detail": "ready",
+        "extra": {
+          "tasks": [
+            "sensing"
+          ],
+          "cache": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/has.h5",
+            "exists": true,
+            "size_bytes": 770782056,
+            "updated_at_utc": "2026-03-31T03:09:52.905668+00:00"
+          },
+          "raw": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/has/NTU-Fi_HAR",
+            "exists": false
+          },
+          "cache_name": "has.h5"
+        }
+      },
+      {
+        "name": "cache:interf",
+        "status": "ok",
+        "detail": "ready",
+        "extra": {
+          "tasks": [
+            "interf"
+          ],
+          "cache": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/icarus.h5",
+            "exists": true,
+            "size_bytes": 84304080,
+            "updated_at_utc": "2026-03-31T03:53:45.228474+00:00"
+          },
+          "raw": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/icarus",
+            "exists": false
+          },
+          "cache_name": "icarus.h5"
+        }
+      },
+      {
+        "name": "cache:pos",
+        "status": "ok",
+        "detail": "ready",
+        "extra": {
+          "tasks": [
+            "pos"
+          ],
+          "cache": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/nrpos-outdoor.h5",
+            "exists": true,
+            "size_bytes": 9454858728,
+            "updated_at_utc": "2026-03-31T03:10:24.279662+00:00"
+          },
+          "raw": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/pos",
+            "exists": false
+          },
+          "cache_name": "nrpos-outdoor.h5"
+        }
+      },
+      {
+        "name": "cache:radcom",
+        "status": "ok",
+        "detail": "ready",
+        "extra": {
+          "tasks": [
+            "radcom"
+          ],
+          "cache": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/radcom.h5",
+            "exists": true,
+            "size_bytes": 636789408,
+            "updated_at_utc": "2026-03-31T06:17:27.340304+00:00"
+          },
+          "raw": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/radcom/radcom_source.h5",
+            "exists": false
+          },
+          "cache_name": "radcom.h5"
+        }
+      },
+      {
+        "name": "cache:rfp",
+        "status": "ok",
+        "detail": "ready",
+        "extra": {
+          "tasks": [
+            "rfp"
+          ],
+          "cache": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/rfp.h5",
+            "exists": true,
+            "size_bytes": 4358720232,
+            "updated_at_utc": "2026-04-02T22:05:06.627700+00:00"
+          },
+          "raw": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/rfp/GlobecomPOWDER",
+            "exists": false
+          },
+          "cache_name": "rfp.h5"
+        }
+      },
+      {
+        "name": "cache:rml",
+        "status": "ok",
+        "detail": "ready",
+        "extra": {
+          "tasks": [
+            "rml"
+          ],
+          "cache": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/rml22.h5",
+            "exists": true,
+            "size_bytes": 497186992,
+            "updated_at_utc": "2026-03-31T03:52:24.199816+00:00"
+          },
+          "raw": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/rml22/RML22.01A",
+            "exists": false
+          },
+          "cache_name": "rml22.h5"
+        }
+      },
+      {
+        "name": "cache:uwb-indoor",
+        "status": "ok",
+        "detail": "ready",
+        "extra": {
+          "tasks": [
+            "uwb-indoor"
+          ],
+          "cache": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/environment0.h5",
+            "exists": true,
+            "size_bytes": 1027803706,
+            "updated_at_utc": "2026-03-31T03:11:15.351865+00:00"
+          },
+          "raw": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/uwb_indoor",
+            "exists": false
+          },
+          "cache_name": "environment0.h5"
+        }
+      },
+      {
+        "name": "cache:uwb-industrial",
+        "status": "ok",
+        "detail": "ready",
+        "extra": {
+          "tasks": [
+            "uwb-industrial"
+          ],
+          "cache": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_h5/ipin-train.h5",
+            "exists": true,
+            "size_bytes": 722474104,
+            "updated_at_utc": "2026-03-31T03:12:30.293177+00:00"
+          },
+          "raw": {
+            "path": "/home/maheenfs/wavesfm_vivor4_m2/datasets_raw/uwb_industrial/industrial_training.pkl",
+            "exists": false
+          },
+          "cache_name": "ipin-train.h5"
+        }
+      },
+      {
+        "name": "writable:session_root",
+        "status": "ok",
+        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06"
+      },
+      {
+        "name": "writable:results_root",
+        "status": "ok",
+        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task"
+      },
+      {
+        "name": "writable:summary_root",
+        "status": "ok",
+        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries"
+      },
+      {
+        "name": "writable:plots_root",
+        "status": "ok",
+        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots"
+      },
+      {
+        "name": "writable:comparison_root",
+        "status": "ok",
+        "detail": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons"
+      },
+      {
+        "name": "session-cleanliness",
+        "status": "ok",
+        "detail": "session output tree is empty",
+        "extra": {
+          "existing_runs": [],
+          "count": 0
+        }
+      }
+    ]
+  }
+}

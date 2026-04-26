@@ -1,0 +1,190 @@
+{
+  "generated_at_utc": "2026-04-03T21:37:25.813693+00:00",
+  "task": "rml",
+  "task_name": "Modulation Classification",
+  "mode": "lp",
+  "official": {
+    "task_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/by_task/rml.json",
+    "payload_pointer": "official_results_all.json#tasks.rml.modes.lp",
+    "task_payload": {
+      "task_id": "rml",
+      "task_name": "Modulation Classification",
+      "dataset_name": "RML2022",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/rml2022/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 55.25,
+          "acc3": 78.57,
+          "pca": 55.16,
+          "test_samples": 92400
+        },
+        "lora": {
+          "acc1": 56.59,
+          "acc3": 78.59,
+          "pca": 56.49,
+          "test_samples": 92400
+        },
+        "lp": {
+          "acc1": 50.49,
+          "acc3": 74.34,
+          "pca": 50.39,
+          "test_samples": 92400
+        }
+      }
+    },
+    "mode_metrics": {
+      "acc1": 50.49,
+      "acc3": 74.34,
+      "pca": 50.39,
+      "test_samples": 92400
+    }
+  },
+  "local": {
+    "aggregate": {
+      "task": "rml",
+      "task_name": "Modulation Classification",
+      "mode": "lp",
+      "n_seeds": 3,
+      "primary_metric": "pca",
+      "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+      "session_name": "20260403_004122-ngwn06",
+      "best_metric.mean": 50.39349492390951,
+      "best_metric.std": 0.09615831328965015,
+      "val.acc1.mean": 50.475829731334336,
+      "val.acc1.std": 0.1062787961751494,
+      "val.acc3.mean": 74.33946610047532,
+      "val.acc3.std": 0.014393897939585695,
+      "val.loss.mean": 1.3150508635040659,
+      "val.loss.std": 0.0009451491162238893,
+      "val.pca.mean": 50.39349492390951,
+      "val.pca.std": 0.09615831328965015
+    },
+    "runs": [
+      {
+        "task": "rml",
+        "task_name": "Modulation Classification",
+        "mode": "lp",
+        "seed": 0,
+        "run_dir": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s0",
+        "metadata_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s0/metadata.json",
+        "log_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s0/log.txt",
+        "best_checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s0/best.pth",
+        "latest_checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s0/checkpoint_049.pth",
+        "status": "ok",
+        "best_entry_source": "log",
+        "best_epoch": 42,
+        "best_key": "pca",
+        "best_metric": 50.5285530090332,
+        "primary_metric": "pca",
+        "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+        "session_name": "20260403_004122-ngwn06",
+        "launch_host": "ngwn06",
+        "initial_launch_host": "ngwn06",
+        "launch_history": [
+          "ngwn06"
+        ],
+        "run_origin": "fresh",
+        "resume_checkpoint": null,
+        "val.loss": 1.314106799389893,
+        "val.acc1": 50.62229437889991,
+        "val.acc3": 74.34740260400814,
+        "val.pca": 50.5285530090332,
+        "train.loss": 1.2933649864461687,
+        "train.acc1": 51.294216579861114
+      },
+      {
+        "task": "rml",
+        "task_name": "Modulation Classification",
+        "mode": "lp",
+        "seed": 1,
+        "run_dir": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s1",
+        "metadata_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s1/metadata.json",
+        "log_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s1/log.txt",
+        "best_checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s1/best.pth",
+        "latest_checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s1/checkpoint_049.pth",
+        "status": "ok",
+        "best_entry_source": "log",
+        "best_epoch": 49,
+        "best_key": "pca",
+        "best_metric": 50.31221389770508,
+        "primary_metric": "pca",
+        "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+        "session_name": "20260403_004122-ngwn06",
+        "launch_host": "ngwn06",
+        "initial_launch_host": "ngwn06",
+        "launch_history": [
+          "ngwn06"
+        ],
+        "run_origin": "fresh",
+        "resume_checkpoint": null,
+        "val.loss": 1.3147034338542394,
+        "val.acc1": 50.43181818842372,
+        "val.acc3": 74.35173162154821,
+        "val.pca": 50.31221389770508,
+        "train.loss": 1.292768798271815,
+        "train.acc1": 51.464029947916664
+      },
+      {
+        "task": "rml",
+        "task_name": "Modulation Classification",
+        "mode": "lp",
+        "seed": 2,
+        "run_dir": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s2",
+        "metadata_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s2/metadata.json",
+        "log_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s2/log.txt",
+        "best_checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s2/best.pth",
+        "latest_checkpoint_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/lp/s2/checkpoint_049.pth",
+        "status": "ok",
+        "best_entry_source": "log",
+        "best_epoch": 44,
+        "best_key": "pca",
+        "best_metric": 50.339717864990234,
+        "primary_metric": "pca",
+        "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+        "session_name": "20260403_004122-ngwn06",
+        "launch_host": "ngwn06",
+        "initial_launch_host": "ngwn06",
+        "launch_history": [
+          "ngwn06"
+        ],
+        "run_origin": "fresh",
+        "resume_checkpoint": null,
+        "val.loss": 1.316342357268065,
+        "val.acc1": 50.373376626679395,
+        "val.acc3": 74.31926407586961,
+        "val.pca": 50.339717864990234,
+        "train.loss": 1.2939729472001393,
+        "train.acc1": 51.279296875
+      }
+    ],
+    "summary_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "runs_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_runs.json"
+  },
+  "comparison": {
+    "task": "rml",
+    "task_name": "Modulation Classification",
+    "mode": "lp",
+    "primary_metric": "pca",
+    "official_split": "20% split",
+    "official_source_url": "https://waveslab.ai/detailed-eval/",
+    "official_source_updated": "2026-01-23",
+    "official_task_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/by_task/rml.json",
+    "official_payload_pointer": "official_results_all.json#tasks.rml.modes.lp",
+    "local_summary_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_aggregated.json",
+    "local_runs_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/summaries/local_results_runs.json",
+    "bundle_json_path": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/comparisons/by_task/rml/lp.json",
+    "official_primary": 50.39,
+    "local_primary_mean": 50.39349492390951,
+    "local_primary_std": 0.09615831328965015,
+    "delta_local_minus_official": 0.0034949239095070084,
+    "status": "ok",
+    "session_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06",
+    "session_name": "20260403_004122-ngwn06",
+    "local_run_count": 3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "task_id": "sensing",
+  "task_name": "Human Activity Sensing",
+  "dataset_name": "EfficientFi (HAS)",
+  "task_type": "classification",
+  "primary_metric": "pca",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/has/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "acc1": 99.31,
+      "acc3": 100.0,
+      "pca": 99.31,
+      "test_samples": 240
+    },
+    "lora": {
+      "acc1": 98.47,
+      "acc3": 100.0,
+      "pca": 98.47,
+      "test_samples": 240
+    },
+    "lp": {
+      "acc1": 94.44,
+      "acc3": 100.0,
+      "pca": 94.42,
+      "test_samples": 240
+    }
+  }
+}

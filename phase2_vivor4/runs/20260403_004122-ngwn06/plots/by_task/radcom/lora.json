@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-04-03T21:37:22.927623+00:00",
+  "task": "radcom",
+  "mode": "lora",
+  "selection": "best-per-mode",
+  "device": "cpu",
+  "rows": [
+    {
+      "task": "radcom",
+      "mode": "lora",
+      "seed": 2,
+      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/radcom/lora/s2/best.pth",
+      "caption": "Local pca: 94.0655 +/- 0.3188 across 3 seed(s); plotted all_seeds | Official pca: 93.7800",
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.png",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.svg",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.npz",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/radcom/lora/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

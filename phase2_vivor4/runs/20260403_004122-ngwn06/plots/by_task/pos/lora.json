@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-04-03T21:37:22.927512+00:00",
+  "task": "pos",
+  "mode": "lora",
+  "selection": "best-per-mode",
+  "device": "cpu",
+  "rows": [
+    {
+      "task": "pos",
+      "mode": "lora",
+      "seed": 1,
+      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/pos/lora/s1/best.pth",
+      "caption": "Local mean_error: 1.5051 +/- 0.0684 across 3 seed(s); plotted all_seeds | Official mean_error: 1.4500",
+      "plots": [
+        {
+          "kind": "position_error_density",
+          "paths": [
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lora/all_seeds_position_error_density.png",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lora/all_seeds_position_error_density.svg",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/pos/lora/all_seeds_position_error_density.npz"
+          ]
+        }
+      ]
+    }
+  ]
+}

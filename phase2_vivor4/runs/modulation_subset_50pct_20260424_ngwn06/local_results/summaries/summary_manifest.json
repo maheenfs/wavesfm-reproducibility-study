@@ -1,0 +1,79 @@
+{
+  "status": "completed",
+  "generated_at_utc": "2026-04-25T14:12:12.048780+00:00",
+  "results_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/by_task",
+  "summary_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/summaries",
+  "runs_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/summaries/local_results_runs.json",
+  "aggregated_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/summaries/local_results_aggregated.json",
+  "completed_task_modes": 6,
+  "total_task_modes": 6,
+  "run_entries": 18,
+  "entries": [
+    {
+      "task": "radcom",
+      "mode": "ft2",
+      "n_seeds": 3,
+      "primary_metric": "pca",
+      "experiment_kind": "train_subset_study",
+      "experiment_label": "50% subset",
+      "train_subset_fraction": 0.5,
+      "train_subset_percent": 50.0,
+      "train_subset_size": null
+    },
+    {
+      "task": "radcom",
+      "mode": "lora",
+      "n_seeds": 3,
+      "primary_metric": "pca",
+      "experiment_kind": "train_subset_study",
+      "experiment_label": "50% subset",
+      "train_subset_fraction": 0.5,
+      "train_subset_percent": 50.0,
+      "train_subset_size": null
+    },
+    {
+      "task": "radcom",
+      "mode": "lp",
+      "n_seeds": 3,
+      "primary_metric": "pca",
+      "experiment_kind": "train_subset_study",
+      "experiment_label": "50% subset",
+      "train_subset_fraction": 0.5,
+      "train_subset_percent": 50.0,
+      "train_subset_size": null
+    },
+    {
+      "task": "rml",
+      "mode": "ft2",
+      "n_seeds": 3,
+      "primary_metric": "pca",
+      "experiment_kind": "train_subset_study",
+      "experiment_label": "50% subset",
+      "train_subset_fraction": 0.5,
+      "train_subset_percent": 50.0,
+      "train_subset_size": null
+    },
+    {
+      "task": "rml",
+      "mode": "lora",
+      "n_seeds": 3,
+      "primary_metric": "pca",
+      "experiment_kind": "train_subset_study",
+      "experiment_label": "50% subset",
+      "train_subset_fraction": 0.5,
+      "train_subset_percent": 50.0,
+      "train_subset_size": null
+    },
+    {
+      "task": "rml",
+      "mode": "lp",
+      "n_seeds": 3,
+      "primary_metric": "pca",
+      "experiment_kind": "train_subset_study",
+      "experiment_label": "50% subset",
+      "train_subset_fraction": 0.5,
+      "train_subset_percent": 50.0,
+      "train_subset_size": null
+    }
+  ]
+}

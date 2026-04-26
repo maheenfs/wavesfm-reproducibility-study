@@ -1,0 +1,347 @@
+{
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "tasks": {
+    "sensing": {
+      "task_id": "sensing",
+      "task_name": "Human Activity Sensing",
+      "dataset_name": "EfficientFi (HAS)",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/has/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 99.31,
+          "acc3": 100.0,
+          "pca": 99.31,
+          "test_samples": 240
+        },
+        "lora": {
+          "acc1": 98.47,
+          "acc3": 100.0,
+          "pca": 98.47,
+          "test_samples": 240
+        },
+        "lp": {
+          "acc1": 94.44,
+          "acc3": 100.0,
+          "pca": 94.42,
+          "test_samples": 240
+        }
+      }
+    },
+    "rfs": {
+      "task_id": "rfs",
+      "task_name": "RF Signal Classification",
+      "dataset_name": "CommRad RF (RFS)",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/rfs/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 84.53,
+          "acc3": 93.37,
+          "pca": 83.41,
+          "test_samples": 724
+        },
+        "lora": {
+          "acc1": 86.46,
+          "acc3": 93.51,
+          "pca": 84.49,
+          "test_samples": 724
+        },
+        "lp": {
+          "acc1": 55.52,
+          "acc3": 83.33,
+          "pca": 42.85,
+          "test_samples": 724
+        }
+      }
+    },
+    "pos": {
+      "task_id": "pos",
+      "task_name": "5G NR Positioning",
+      "dataset_name": "5G NR Positioning (POS)",
+      "task_type": "position",
+      "primary_metric": "mean_error",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/pos/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "mean_error": 1.24,
+          "median_error": 0.87,
+          "p90_error": 2.69,
+          "test_samples": 2325
+        },
+        "lora": {
+          "mean_error": 1.45,
+          "median_error": 0.99,
+          "p90_error": 3.09,
+          "test_samples": 2325
+        },
+        "lp": {
+          "mean_error": 3.17,
+          "median_error": 2.77,
+          "p90_error": 5.92,
+          "test_samples": 2325
+        }
+      }
+    },
+    "radcom": {
+      "task_id": "radcom",
+      "task_name": "RADCOM Signal Classification",
+      "dataset_name": "RADCOM",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/radcom/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 94.53,
+          "acc3": 99.99,
+          "pca": 94.53,
+          "test_samples": 113400
+        },
+        "lora": {
+          "acc1": 93.78,
+          "acc3": 99.99,
+          "pca": 93.78,
+          "test_samples": 113400
+        },
+        "lp": {
+          "acc1": 90.12,
+          "acc3": 99.97,
+          "pca": 90.1,
+          "test_samples": 113400
+        }
+      }
+    },
+    "uwb-indoor": {
+      "task_id": "uwb-indoor",
+      "task_name": "UWB Indoor Positioning",
+      "dataset_name": "UWB Indoor Positioning and Tracking",
+      "task_type": "position",
+      "primary_metric": "mean_error",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/uwb_indoor/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "mean_error": 0.83,
+          "median_error": 0.62,
+          "p90_error": 1.66,
+          "test_samples": 3160
+        },
+        "lora": {
+          "mean_error": 0.65,
+          "median_error": 0.5,
+          "p90_error": 1.3,
+          "test_samples": 3160
+        },
+        "lp": {
+          "mean_error": 1.43,
+          "median_error": 1.24,
+          "p90_error": 2.65,
+          "test_samples": 3160
+        }
+      }
+    },
+    "uwb-industrial": {
+      "task_id": "uwb-industrial",
+      "task_name": "UWB Industrial Localization",
+      "dataset_name": "UWB Industrial Localization",
+      "task_type": "position",
+      "primary_metric": "mean_error",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/uwb_industrial/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "mean_error": 0.88,
+          "median_error": 0.72,
+          "p90_error": 1.62,
+          "test_samples": 8052
+        },
+        "lora": {
+          "mean_error": 0.74,
+          "median_error": 0.63,
+          "p90_error": 1.33,
+          "test_samples": 8052
+        },
+        "lp": {
+          "mean_error": 2.71,
+          "median_error": 2.5,
+          "p90_error": 4.69,
+          "test_samples": 8052
+        }
+      }
+    },
+    "rml": {
+      "task_id": "rml",
+      "task_name": "Modulation Classification",
+      "dataset_name": "RML2022",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/rml2022/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 55.25,
+          "acc3": 78.57,
+          "pca": 55.16,
+          "test_samples": 92400
+        },
+        "lora": {
+          "acc1": 56.59,
+          "acc3": 78.59,
+          "pca": 56.49,
+          "test_samples": 92400
+        },
+        "lp": {
+          "acc1": 50.49,
+          "acc3": 74.34,
+          "pca": 50.39,
+          "test_samples": 92400
+        }
+      }
+    },
+    "rfp": {
+      "task_id": "rfp",
+      "task_name": "RF Fingerprinting",
+      "dataset_name": "POWDER (RFP)",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/rfp/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 99.7,
+          "acc3": 100.0,
+          "pca": 99.7,
+          "test_samples": 208894
+        },
+        "lora": {
+          "acc1": 99.82,
+          "acc3": 100.0,
+          "pca": 99.82,
+          "test_samples": 208894
+        },
+        "lp": {
+          "acc1": 98.96,
+          "acc3": 100.0,
+          "pca": 98.97,
+          "test_samples": 208894
+        }
+      }
+    },
+    "interf": {
+      "task_id": "interf",
+      "task_name": "Interference Classification",
+      "dataset_name": "ICARUS (INTD/INTC)",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/icarus/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 75.0,
+          "acc3": 100.0,
+          "pca": 78.94,
+          "test_samples": 500
+        },
+        "lora": {
+          "acc1": 74.87,
+          "acc3": 100.0,
+          "pca": 78.94,
+          "test_samples": 500
+        },
+        "lp": {
+          "acc1": 67.47,
+          "acc3": 100.0,
+          "pca": 71.5,
+          "test_samples": 500
+        }
+      }
+    },
+    "deepmimo-los": {
+      "task_id": "deepmimo-los",
+      "task_name": "LOS/NLOS Classification",
+      "dataset_name": "DeepMIMO",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/deepmimo/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 95.66,
+          "acc3": 100.0,
+          "pca": 95.46,
+          "test_samples": 2968
+        },
+        "lora": {
+          "acc1": 95.6,
+          "acc3": 100.0,
+          "pca": 95.24,
+          "test_samples": 2968
+        },
+        "lp": {
+          "acc1": 95.35,
+          "acc3": 100.0,
+          "pca": 95.02,
+          "test_samples": 2968
+        }
+      }
+    },
+    "deepmimo-beam": {
+      "task_id": "deepmimo-beam",
+      "task_name": "Beam Prediction",
+      "dataset_name": "DeepMIMO",
+      "task_type": "classification",
+      "primary_metric": "pca",
+      "dataset_protocol_url": "https://waveslab.ai/docs/datasets/deepmimo/",
+      "reported_split": "20% split",
+      "source_url": "https://waveslab.ai/detailed-eval/",
+      "source_updated": "2026-01-23",
+      "modes": {
+        "ft2": {
+          "acc1": 80.5,
+          "acc3": 94.42,
+          "pca": 78.38,
+          "test_samples": 2968
+        },
+        "lora": {
+          "acc1": 79.68,
+          "acc3": 93.82,
+          "pca": 77.38,
+          "test_samples": 2968
+        },
+        "lp": {
+          "acc1": 70.66,
+          "acc3": 90.96,
+          "pca": 67.67,
+          "test_samples": 2968
+        }
+      }
+    }
+  }
+}

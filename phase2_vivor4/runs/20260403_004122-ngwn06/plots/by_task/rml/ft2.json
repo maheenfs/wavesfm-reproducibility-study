@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-04-03T21:37:22.927811+00:00",
+  "task": "rml",
+  "mode": "ft2",
+  "selection": "best-per-mode",
+  "device": "cpu",
+  "rows": [
+    {
+      "task": "rml",
+      "mode": "ft2",
+      "seed": 0,
+      "checkpoint": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/local_results/by_task/rml/ft2/s0/best.pth",
+      "caption": "Local pca: 55.1408 +/- 0.1663 across 3 seed(s); plotted all_seeds | Official pca: 55.1600",
+      "plots": [
+        {
+          "kind": "rml_overview",
+          "paths": [
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview.png",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview.svg",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview.npz",
+            "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/20260403_004122-ngwn06/plots/rml/ft2/all_seeds_rml_overview_label_map.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

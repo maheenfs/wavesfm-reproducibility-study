@@ -1,0 +1,256 @@
+{
+  "status": "completed",
+  "selection": "best-per-mode",
+  "device": "cpu",
+  "generated_at_utc": "2026-04-25T13:58:11.897413+00:00",
+  "results_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/by_task",
+  "output_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots",
+  "total_task_modes": 36,
+  "completed_task_modes": 6,
+  "generated_runs": 6,
+  "experiment_labels": [
+    "train subset 50%"
+  ],
+  "generated": [
+    {
+      "task": "radcom",
+      "mode": "ft2",
+      "seed": 1,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/by_task/radcom/ft2/s1/best.pth",
+      "caption": "Local pca: 93.7853 +/- 0.0264 across 3 seed(s); plotted all_seeds | Official pca: 94.5300",
+      "output_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/ft2",
+      "experiment": {
+        "kind": "train_subset_study",
+        "label": "train subset 50%",
+        "short_badge": "50% subset",
+        "subset_applied": true,
+        "train_subset_fraction": 0.5,
+        "train_subset_percent": 50.0,
+        "train_subset_size": 226800,
+        "train_split_size": 453600,
+        "train_size_used": 226800,
+        "train_text": "226,800 / 453,600 (50%)",
+        "eval_size": 113400,
+        "eval_label": "validation split",
+        "sampling_label": "stratified subset after split"
+      },
+      "data_splits": {
+        "train_split_size": 453600,
+        "train_size_used": 226800,
+        "eval_size": 113400,
+        "eval_label": "validation split"
+      },
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/ft2/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "radcom",
+      "mode": "lora",
+      "seed": 1,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/by_task/radcom/lora/s1/best.pth",
+      "caption": "Local pca: 93.6886 +/- 0.1831 across 3 seed(s); plotted all_seeds | Official pca: 93.7800",
+      "output_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lora",
+      "experiment": {
+        "kind": "train_subset_study",
+        "label": "train subset 50%",
+        "short_badge": "50% subset",
+        "subset_applied": true,
+        "train_subset_fraction": 0.5,
+        "train_subset_percent": 50.0,
+        "train_subset_size": 226800,
+        "train_split_size": 453600,
+        "train_size_used": 226800,
+        "train_text": "226,800 / 453,600 (50%)",
+        "eval_size": 113400,
+        "eval_label": "validation split",
+        "sampling_label": "stratified subset after split"
+      },
+      "data_splits": {
+        "train_split_size": 453600,
+        "train_size_used": 226800,
+        "eval_size": 113400,
+        "eval_label": "validation split"
+      },
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lora/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lora/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "radcom",
+      "mode": "lp",
+      "seed": 0,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/by_task/radcom/lp/s0/best.pth",
+      "caption": "Local pca: 89.2136 +/- 0.0815 across 3 seed(s); plotted all_seeds | Official pca: 90.1000",
+      "output_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lp",
+      "experiment": {
+        "kind": "train_subset_study",
+        "label": "train subset 50%",
+        "short_badge": "50% subset",
+        "subset_applied": true,
+        "train_subset_fraction": 0.5,
+        "train_subset_percent": 50.0,
+        "train_subset_size": 226800,
+        "train_split_size": 453600,
+        "train_size_used": 226800,
+        "train_text": "226,800 / 453,600 (50%)",
+        "eval_size": 113400,
+        "eval_label": "validation split",
+        "sampling_label": "stratified subset after split"
+      },
+      "data_splits": {
+        "train_split_size": 453600,
+        "train_size_used": 226800,
+        "eval_size": 113400,
+        "eval_label": "validation split"
+      },
+      "plots": [
+        {
+          "kind": "confusion_matrix",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lp/all_seeds_confusion_matrix.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lp/all_seeds_confusion_matrix.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lp/all_seeds_confusion_matrix.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/radcom/lp/all_seeds_confusion_matrix_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "rml",
+      "mode": "ft2",
+      "seed": 2,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/by_task/rml/ft2/s2/best.pth",
+      "caption": "Local pca: 51.4077 +/- 0.1365 across 3 seed(s); plotted all_seeds | Official pca: 55.1600",
+      "output_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/ft2",
+      "experiment": {
+        "kind": "train_subset_study",
+        "label": "train subset 50%",
+        "short_badge": "50% subset",
+        "subset_applied": true,
+        "train_subset_fraction": 0.5,
+        "train_subset_percent": 50.0,
+        "train_subset_size": 184800,
+        "train_split_size": 369600,
+        "train_size_used": 184800,
+        "train_text": "184,800 / 369,600 (50%)",
+        "eval_size": 92400,
+        "eval_label": "validation split",
+        "sampling_label": "stratified subset after split"
+      },
+      "data_splits": {
+        "train_split_size": 369600,
+        "train_size_used": 184800,
+        "eval_size": 92400,
+        "eval_label": "validation split"
+      },
+      "plots": [
+        {
+          "kind": "rml_overview",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/ft2/all_seeds_rml_overview.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/ft2/all_seeds_rml_overview.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/ft2/all_seeds_rml_overview.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/ft2/all_seeds_rml_overview_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "rml",
+      "mode": "lora",
+      "seed": 0,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/by_task/rml/lora/s0/best.pth",
+      "caption": "Local pca: 53.7104 +/- 0.0704 across 3 seed(s); plotted all_seeds | Official pca: 56.4900",
+      "output_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lora",
+      "experiment": {
+        "kind": "train_subset_study",
+        "label": "train subset 50%",
+        "short_badge": "50% subset",
+        "subset_applied": true,
+        "train_subset_fraction": 0.5,
+        "train_subset_percent": 50.0,
+        "train_subset_size": 184800,
+        "train_split_size": 369600,
+        "train_size_used": 184800,
+        "train_text": "184,800 / 369,600 (50%)",
+        "eval_size": 92400,
+        "eval_label": "validation split",
+        "sampling_label": "stratified subset after split"
+      },
+      "data_splits": {
+        "train_split_size": 369600,
+        "train_size_used": 184800,
+        "eval_size": 92400,
+        "eval_label": "validation split"
+      },
+      "plots": [
+        {
+          "kind": "rml_overview",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lora/all_seeds_rml_overview.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lora/all_seeds_rml_overview.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lora/all_seeds_rml_overview.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lora/all_seeds_rml_overview_label_map.json"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "rml",
+      "mode": "lp",
+      "seed": 0,
+      "checkpoint": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/local_results/by_task/rml/lp/s0/best.pth",
+      "caption": "Local pca: 47.3649 +/- 0.1209 across 3 seed(s); plotted all_seeds | Official pca: 50.3900",
+      "output_dir": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lp",
+      "experiment": {
+        "kind": "train_subset_study",
+        "label": "train subset 50%",
+        "short_badge": "50% subset",
+        "subset_applied": true,
+        "train_subset_fraction": 0.5,
+        "train_subset_percent": 50.0,
+        "train_subset_size": 184800,
+        "train_split_size": 369600,
+        "train_size_used": 184800,
+        "train_text": "184,800 / 369,600 (50%)",
+        "eval_size": 92400,
+        "eval_label": "validation split",
+        "sampling_label": "stratified subset after split"
+      },
+      "data_splits": {
+        "train_split_size": 369600,
+        "train_size_used": 184800,
+        "eval_size": 92400,
+        "eval_label": "validation split"
+      },
+      "plots": [
+        {
+          "kind": "rml_overview",
+          "paths": [
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lp/all_seeds_rml_overview.png",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lp/all_seeds_rml_overview.svg",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lp/all_seeds_rml_overview.npz",
+            "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06/plots/rml/lp/all_seeds_rml_overview_label_map.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "task_id": "radcom",
+  "task_name": "RADCOM Signal Classification",
+  "dataset_name": "RADCOM",
+  "task_type": "classification",
+  "primary_metric": "pca",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/radcom/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "acc1": 94.53,
+      "acc3": 99.99,
+      "pca": 94.53,
+      "test_samples": 113400
+    },
+    "lora": {
+      "acc1": 93.78,
+      "acc3": 99.99,
+      "pca": 93.78,
+      "test_samples": 113400
+    },
+    "lp": {
+      "acc1": 90.12,
+      "acc3": 99.97,
+      "pca": 90.1,
+      "test_samples": 113400
+    }
+  }
+}

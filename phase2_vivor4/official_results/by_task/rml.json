@@ -1,0 +1,31 @@
+{
+  "task_id": "rml",
+  "task_name": "Modulation Classification",
+  "dataset_name": "RML2022",
+  "task_type": "classification",
+  "primary_metric": "pca",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/rml2022/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "acc1": 55.25,
+      "acc3": 78.57,
+      "pca": 55.16,
+      "test_samples": 92400
+    },
+    "lora": {
+      "acc1": 56.59,
+      "acc3": 78.59,
+      "pca": 56.49,
+      "test_samples": 92400
+    },
+    "lp": {
+      "acc1": 50.49,
+      "acc3": 74.34,
+      "pca": 50.39,
+      "test_samples": 92400
+    }
+  }
+}

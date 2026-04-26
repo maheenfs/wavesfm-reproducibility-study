@@ -1,0 +1,31 @@
+{
+  "task_id": "interf",
+  "task_name": "Interference Classification",
+  "dataset_name": "ICARUS (INTD/INTC)",
+  "task_type": "classification",
+  "primary_metric": "pca",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/icarus/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "acc1": 75.0,
+      "acc3": 100.0,
+      "pca": 78.94,
+      "test_samples": 500
+    },
+    "lora": {
+      "acc1": 74.87,
+      "acc3": 100.0,
+      "pca": 78.94,
+      "test_samples": 500
+    },
+    "lp": {
+      "acc1": 67.47,
+      "acc3": 100.0,
+      "pca": 71.5,
+      "test_samples": 500
+    }
+  }
+}

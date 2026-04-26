@@ -1,0 +1,31 @@
+{
+  "task_id": "rfs",
+  "task_name": "RF Signal Classification",
+  "dataset_name": "CommRad RF (RFS)",
+  "task_type": "classification",
+  "primary_metric": "pca",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/rfs/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "acc1": 84.53,
+      "acc3": 93.37,
+      "pca": 83.41,
+      "test_samples": 724
+    },
+    "lora": {
+      "acc1": 86.46,
+      "acc3": 93.51,
+      "pca": 84.49,
+      "test_samples": 724
+    },
+    "lp": {
+      "acc1": 55.52,
+      "acc3": 83.33,
+      "pca": 42.85,
+      "test_samples": 724
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "task_id": "uwb-indoor",
+  "task_name": "UWB Indoor Positioning",
+  "dataset_name": "UWB Indoor Positioning and Tracking",
+  "task_type": "position",
+  "primary_metric": "mean_error",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/uwb_indoor/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "mean_error": 0.83,
+      "median_error": 0.62,
+      "p90_error": 1.66,
+      "test_samples": 3160
+    },
+    "lora": {
+      "mean_error": 0.65,
+      "median_error": 0.5,
+      "p90_error": 1.3,
+      "test_samples": 3160
+    },
+    "lp": {
+      "mean_error": 1.43,
+      "median_error": 1.24,
+      "p90_error": 2.65,
+      "test_samples": 3160
+    }
+  }
+}

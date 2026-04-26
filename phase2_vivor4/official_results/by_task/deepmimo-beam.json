@@ -1,0 +1,31 @@
+{
+  "task_id": "deepmimo-beam",
+  "task_name": "Beam Prediction",
+  "dataset_name": "DeepMIMO",
+  "task_type": "classification",
+  "primary_metric": "pca",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/deepmimo/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "acc1": 80.5,
+      "acc3": 94.42,
+      "pca": 78.38,
+      "test_samples": 2968
+    },
+    "lora": {
+      "acc1": 79.68,
+      "acc3": 93.82,
+      "pca": 77.38,
+      "test_samples": 2968
+    },
+    "lp": {
+      "acc1": 70.66,
+      "acc3": 90.96,
+      "pca": 67.67,
+      "test_samples": 2968
+    }
+  }
+}

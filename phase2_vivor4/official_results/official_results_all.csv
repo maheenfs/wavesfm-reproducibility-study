@@ -1,0 +1,34 @@
+acc1,acc3,dataset_name,dataset_protocol_url,mean_error,median_error,mode,p90_error,pca,primary_metric,reported_split,source_updated,source_url,task_id,task_name,task_type,test_samples
+99.31,100.0,EfficientFi (HAS),https://waveslab.ai/docs/datasets/has/,,,ft2,,99.31,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,sensing,Human Activity Sensing,classification,240
+98.47,100.0,EfficientFi (HAS),https://waveslab.ai/docs/datasets/has/,,,lora,,98.47,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,sensing,Human Activity Sensing,classification,240
+94.44,100.0,EfficientFi (HAS),https://waveslab.ai/docs/datasets/has/,,,lp,,94.42,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,sensing,Human Activity Sensing,classification,240
+84.53,93.37,CommRad RF (RFS),https://waveslab.ai/docs/datasets/rfs/,,,ft2,,83.41,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,rfs,RF Signal Classification,classification,724
+86.46,93.51,CommRad RF (RFS),https://waveslab.ai/docs/datasets/rfs/,,,lora,,84.49,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,rfs,RF Signal Classification,classification,724
+55.52,83.33,CommRad RF (RFS),https://waveslab.ai/docs/datasets/rfs/,,,lp,,42.85,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,rfs,RF Signal Classification,classification,724
+,,5G NR Positioning (POS),https://waveslab.ai/docs/datasets/pos/,1.24,0.87,ft2,2.69,,mean_error,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,pos,5G NR Positioning,position,2325
+,,5G NR Positioning (POS),https://waveslab.ai/docs/datasets/pos/,1.45,0.99,lora,3.09,,mean_error,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,pos,5G NR Positioning,position,2325
+,,5G NR Positioning (POS),https://waveslab.ai/docs/datasets/pos/,3.17,2.77,lp,5.92,,mean_error,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,pos,5G NR Positioning,position,2325
+94.53,99.99,RADCOM,https://waveslab.ai/docs/datasets/radcom/,,,ft2,,94.53,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,radcom,RADCOM Signal Classification,classification,113400
+93.78,99.99,RADCOM,https://waveslab.ai/docs/datasets/radcom/,,,lora,,93.78,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,radcom,RADCOM Signal Classification,classification,113400
+90.12,99.97,RADCOM,https://waveslab.ai/docs/datasets/radcom/,,,lp,,90.1,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,radcom,RADCOM Signal Classification,classification,113400
+,,UWB Indoor Positioning and Tracking,https://waveslab.ai/docs/datasets/uwb_indoor/,0.83,0.62,ft2,1.66,,mean_error,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,uwb-indoor,UWB Indoor Positioning,position,3160
+,,UWB Indoor Positioning and Tracking,https://waveslab.ai/docs/datasets/uwb_indoor/,0.65,0.5,lora,1.3,,mean_error,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,uwb-indoor,UWB Indoor Positioning,position,3160
+,,UWB Indoor Positioning and Tracking,https://waveslab.ai/docs/datasets/uwb_indoor/,1.43,1.24,lp,2.65,,mean_error,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,uwb-indoor,UWB Indoor Positioning,position,3160
+,,UWB Industrial Localization,https://waveslab.ai/docs/datasets/uwb_industrial/,0.88,0.72,ft2,1.62,,mean_error,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,uwb-industrial,UWB Industrial Localization,position,8052
+,,UWB Industrial Localization,https://waveslab.ai/docs/datasets/uwb_industrial/,0.74,0.63,lora,1.33,,mean_error,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,uwb-industrial,UWB Industrial Localization,position,8052
+,,UWB Industrial Localization,https://waveslab.ai/docs/datasets/uwb_industrial/,2.71,2.5,lp,4.69,,mean_error,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,uwb-industrial,UWB Industrial Localization,position,8052
+55.25,78.57,RML2022,https://waveslab.ai/docs/datasets/rml2022/,,,ft2,,55.16,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,rml,Modulation Classification,classification,92400
+56.59,78.59,RML2022,https://waveslab.ai/docs/datasets/rml2022/,,,lora,,56.49,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,rml,Modulation Classification,classification,92400
+50.49,74.34,RML2022,https://waveslab.ai/docs/datasets/rml2022/,,,lp,,50.39,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,rml,Modulation Classification,classification,92400
+99.7,100.0,POWDER (RFP),https://waveslab.ai/docs/datasets/rfp/,,,ft2,,99.7,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,rfp,RF Fingerprinting,classification,208894
+99.82,100.0,POWDER (RFP),https://waveslab.ai/docs/datasets/rfp/,,,lora,,99.82,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,rfp,RF Fingerprinting,classification,208894
+98.96,100.0,POWDER (RFP),https://waveslab.ai/docs/datasets/rfp/,,,lp,,98.97,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,rfp,RF Fingerprinting,classification,208894
+75.0,100.0,ICARUS (INTD/INTC),https://waveslab.ai/docs/datasets/icarus/,,,ft2,,78.94,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,interf,Interference Classification,classification,500
+74.87,100.0,ICARUS (INTD/INTC),https://waveslab.ai/docs/datasets/icarus/,,,lora,,78.94,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,interf,Interference Classification,classification,500
+67.47,100.0,ICARUS (INTD/INTC),https://waveslab.ai/docs/datasets/icarus/,,,lp,,71.5,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,interf,Interference Classification,classification,500
+95.66,100.0,DeepMIMO,https://waveslab.ai/docs/datasets/deepmimo/,,,ft2,,95.46,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,deepmimo-los,LOS/NLOS Classification,classification,2968
+95.6,100.0,DeepMIMO,https://waveslab.ai/docs/datasets/deepmimo/,,,lora,,95.24,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,deepmimo-los,LOS/NLOS Classification,classification,2968
+95.35,100.0,DeepMIMO,https://waveslab.ai/docs/datasets/deepmimo/,,,lp,,95.02,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,deepmimo-los,LOS/NLOS Classification,classification,2968
+80.5,94.42,DeepMIMO,https://waveslab.ai/docs/datasets/deepmimo/,,,ft2,,78.38,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,deepmimo-beam,Beam Prediction,classification,2968
+79.68,93.82,DeepMIMO,https://waveslab.ai/docs/datasets/deepmimo/,,,lora,,77.38,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,deepmimo-beam,Beam Prediction,classification,2968
+70.66,90.96,DeepMIMO,https://waveslab.ai/docs/datasets/deepmimo/,,,lp,,67.67,pca,20% split,2026-01-23,https://waveslab.ai/detailed-eval/,deepmimo-beam,Beam Prediction,classification,2968

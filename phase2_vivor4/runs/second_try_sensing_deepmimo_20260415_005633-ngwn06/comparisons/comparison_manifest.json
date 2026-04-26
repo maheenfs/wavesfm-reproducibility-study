@@ -1,0 +1,87 @@
+{
+  "generated_at_utc": "2026-04-15T05:44:47.609382+00:00",
+  "official_json": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/official_results/official_results_all.json",
+  "local_summary_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_aggregated.json",
+  "local_runs_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/local_results/summaries/local_results_runs.json",
+  "comparison_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/local_vs_official.json",
+  "by_task_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task",
+  "status": "completed",
+  "total_task_modes": 9,
+  "completed_task_modes": 9,
+  "current_task": null,
+  "current_mode": null,
+  "entries": [
+    {
+      "task": "deepmimo-beam",
+      "mode": "ft2",
+      "task_name": "Beam Prediction",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/deepmimo-beam/ft2.json",
+      "status": "ok",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+    },
+    {
+      "task": "deepmimo-beam",
+      "mode": "lora",
+      "task_name": "Beam Prediction",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/deepmimo-beam/lora.json",
+      "status": "ok",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+    },
+    {
+      "task": "deepmimo-beam",
+      "mode": "lp",
+      "task_name": "Beam Prediction",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/deepmimo-beam/lp.json",
+      "status": "ok",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+    },
+    {
+      "task": "deepmimo-los",
+      "mode": "ft2",
+      "task_name": "LOS/NLOS Classification",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/deepmimo-los/ft2.json",
+      "status": "ok",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+    },
+    {
+      "task": "deepmimo-los",
+      "mode": "lora",
+      "task_name": "LOS/NLOS Classification",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/deepmimo-los/lora.json",
+      "status": "ok",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+    },
+    {
+      "task": "deepmimo-los",
+      "mode": "lp",
+      "task_name": "LOS/NLOS Classification",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/deepmimo-los/lp.json",
+      "status": "ok",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+    },
+    {
+      "task": "sensing",
+      "mode": "ft2",
+      "task_name": "Human Activity Sensing",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/sensing/ft2.json",
+      "status": "ok",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+    },
+    {
+      "task": "sensing",
+      "mode": "lora",
+      "task_name": "Human Activity Sensing",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/sensing/lora.json",
+      "status": "ok",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+    },
+    {
+      "task": "sensing",
+      "mode": "lp",
+      "task_name": "Human Activity Sensing",
+      "bundle_json": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06/comparisons/by_task/sensing/lp.json",
+      "status": "ok",
+      "session_root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/second_try_sensing_deepmimo_20260415_005633-ngwn06"
+    }
+  ]
+}

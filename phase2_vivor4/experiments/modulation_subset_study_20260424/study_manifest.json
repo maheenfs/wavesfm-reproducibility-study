@@ -1,0 +1,80 @@
+{
+  "study_root": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424",
+  "generated_at_utc": "2026-04-24T19:38:38.417247+00:00",
+  "tasks": [
+    "rml",
+    "radcom"
+  ],
+  "modes": [
+    "lp",
+    "ft2",
+    "lora"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "subset_fractions": [
+    0.01,
+    0.03,
+    0.05,
+    0.1,
+    0.5
+  ],
+  "launch_all_script": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_all_subsets.sh",
+  "tables": {
+    "dataset_task_summary": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/tables/table_a_dataset_task_summary.csv",
+    "mode_definition": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/tables/table_b_mode_definition.csv",
+    "run_configuration_matrix": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/tables/table_c_run_configuration_matrix.csv",
+    "results_by_task_mode_subset": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/tables/table_d_results_by_task_mode_subset.csv",
+    "comparison_vs_full_data": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/tables/table_e_comparison_vs_full_data.csv",
+    "runtime_summary": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/tables/table_f_runtime_summary.csv"
+  },
+  "results": {
+    "full_data_baselines": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/results/full_data_baselines.csv",
+    "planned_sessions": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/results/planned_sessions.csv"
+  },
+  "sessions": [
+    {
+      "Subset %": "1%",
+      "Subset Label": "1pct",
+      "Session Root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06",
+      "Launch Script": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_1pct.sh",
+      "Tracker Command": "/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_1pct_20260424_ngwn06 --tasks rml radcom --modes lp ft2 lora --seeds 0 1 2 --num-workers 4 --save-every 5 --train-subset-fraction 0.01",
+      "Status": "planned"
+    },
+    {
+      "Subset %": "3%",
+      "Subset Label": "3pct",
+      "Session Root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_3pct_20260424_ngwn06",
+      "Launch Script": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_3pct.sh",
+      "Tracker Command": "/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_3pct_20260424_ngwn06 --tasks rml radcom --modes lp ft2 lora --seeds 0 1 2 --num-workers 4 --save-every 5 --train-subset-fraction 0.03",
+      "Status": "planned"
+    },
+    {
+      "Subset %": "5%",
+      "Subset Label": "5pct",
+      "Session Root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06",
+      "Launch Script": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_5pct.sh",
+      "Tracker Command": "/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_5pct_20260424_ngwn06 --tasks rml radcom --modes lp ft2 lora --seeds 0 1 2 --num-workers 4 --save-every 5 --train-subset-fraction 0.05",
+      "Status": "planned"
+    },
+    {
+      "Subset %": "10%",
+      "Subset Label": "10pct",
+      "Session Root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06",
+      "Launch Script": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_10pct.sh",
+      "Tracker Command": "/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_10pct_20260424_ngwn06 --tasks rml radcom --modes lp ft2 lora --seeds 0 1 2 --num-workers 4 --save-every 5 --train-subset-fraction 0.1",
+      "Status": "planned"
+    },
+    {
+      "Subset %": "50%",
+      "Subset Label": "50pct",
+      "Session Root": "/local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06",
+      "Launch Script": "/home/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/experiments/modulation_subset_study_20260424/commands/launch_50pct.sh",
+      "Tracker Command": "/home/maheenfs/wavesfm_vivor4_m2/.venv/bin/python phase2_vivor4/scripts/wait_for_radcom_and_run_next.py --session-root /local/data0/maheenfs/wavesfm_vivor4_m2/phase2_vivor4/runs/modulation_subset_50pct_20260424_ngwn06 --tasks rml radcom --modes lp ft2 lora --seeds 0 1 2 --num-workers 4 --save-every 5 --train-subset-fraction 0.5",
+      "Status": "planned"
+    }
+  ]
+}

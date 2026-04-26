@@ -1,0 +1,31 @@
+{
+  "task_id": "uwb-industrial",
+  "task_name": "UWB Industrial Localization",
+  "dataset_name": "UWB Industrial Localization",
+  "task_type": "position",
+  "primary_metric": "mean_error",
+  "dataset_protocol_url": "https://waveslab.ai/docs/datasets/uwb_industrial/",
+  "reported_split": "20% split",
+  "source_url": "https://waveslab.ai/detailed-eval/",
+  "source_updated": "2026-01-23",
+  "modes": {
+    "ft2": {
+      "mean_error": 0.88,
+      "median_error": 0.72,
+      "p90_error": 1.62,
+      "test_samples": 8052
+    },
+    "lora": {
+      "mean_error": 0.74,
+      "median_error": 0.63,
+      "p90_error": 1.33,
+      "test_samples": 8052
+    },
+    "lp": {
+      "mean_error": 2.71,
+      "median_error": 2.5,
+      "p90_error": 4.69,
+      "test_samples": 8052
+    }
+  }
+}
